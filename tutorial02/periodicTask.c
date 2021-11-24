@@ -40,6 +40,10 @@
 
 RT_TASK task_a_desc; // Task decriptor
 
+/* Add two other tasks */
+RT_TASK task_1_desc; // Task1 decriptor
+RT_TASK task_2_desc; // Task2 decriptor
+
 /* *********************
 * Function prototypes
 * **********************/
@@ -57,28 +61,60 @@ uint64_t min_iat, max_iat; // Hold the minium/maximum observed inter arrival tim
 * Main function
 * *******************/ 
 int main(int argc, char *argv[]) {
-	int err; 
-	struct taskArgsStruct taskAArgs;
+	int err, task1, task2; 
+	struct taskArgsStruct taskAArgs, task1Args, task2Args;
+	cpu_set_t mask;
 	
 	/* Lock memory to prevent paging */
 	mlockall(MCL_CURRENT|MCL_FUTURE); 
 
 	/* Create RT task */
 	/* Args: descriptor, name, stack size, priority [0..99] and mode (flags for CPU, FPU, joinable ...) */
-	err=rt_task_create(&task_a_desc, "Task a", TASK_STKSZ, TASK_A_PRIO, TASK_MODE);
+	err = rt_task_create(&task_a_desc, "Task a", TASK_STKSZ, TASK_A_PRIO, TASK_MODE);
 	if(err) {
 		printf("Error creating task a (error code = %d)\n",err);
 		return err;
 	} else 
 		printf("Task a created successfully\n");
 	
-			
-	/* Start RT task */
+	/* A2 - Add two other tasks */
+	/* Task 1 -> priority: 5 */
+	task1 = rt_task_create(&task_1_desc, "Task 1", TASK_STKSZ, 5, TASK_MODE);
+	if(task1) {
+		printf("Error creating task 1 (error code = %d)\n", task1);
+		return task1;
+	} else 
+		printf("Task 1 created successfully\n");
+	
+	/* Task 2 -> priority: 50 */
+	task2 = rt_task_create(&task_2_desc, "Task 2", TASK_STKSZ, 50, TASK_MODE);
+	if(task2) {
+		printf("Error creating task 2 (error code = %d)\n", task2);
+		return task2;
+	} else 
+		printf("Task 2 created successfully\n");
+	
+	/* A2 - Force these tasks to share the same CPU core */
+	CPU_ZERO(&mask);  		// clear all CPUs 
+	CPU_SET(1, &mask);    	// select CPU 1 
+
+	rt_task_set_affinity(&task_1_desc, &mask);
+	rt_task_set_affinity(&task_2_desc, &mask);
+
+	/* Start RT task a */
 	/* Args: task decriptor, address of function/implementation and argument*/
 	taskAArgs.taskPeriod_ns = TASK_A_PERIOD_NS; 	
     rt_task_start(&task_a_desc, &task_code, (void *)&taskAArgs);
     
-	/* wait for termination signal */	
+	/* A2 - Start RT task 1 */
+	task1Args.taskPeriod_ns = TASK_A_PERIOD_NS;
+	rt_task_start(&task_1_desc, &task_code, (void *)&task1Args);
+
+	/* A2 - Start RT task 2 */
+	task2Args.taskPeriod_ns = TASK_A_PERIOD_NS;
+	rt_task_start(&task_2_desc, &task_code, (void *)&task2Args);
+
+	/* A2 - wait for termination signal */	
 	wait_for_ctrl_c();
 
 	return 0;	
