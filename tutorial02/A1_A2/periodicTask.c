@@ -12,6 +12,7 @@
 #include <unistd.h>
 #include <signal.h>
 #include <math.h>
+#include <semaphore.h>
 
 #include <sys/mman.h> // For mlockall
 
@@ -38,11 +39,11 @@
 #define TASK_A_PRIO 25 	// RT priority [0..99]
 #define TASK_A_PERIOD_NS MS_2_NS(1000)
 
-RT_TASK task_a_desc; // Task decriptor
+RT_TASK task_1_desc; // Task decriptor
 
 /* Add two other tasks */
-RT_TASK task_1_desc; // Task1 decriptor
-RT_TASK task_2_desc; // Task2 decriptor
+RT_TASK task_2_desc; // Task1 decriptor
+RT_TASK task_3_desc; // Task2 decriptor
 
 /* *********************
 * Function prototypes
@@ -52,17 +53,12 @@ void wait_for_ctrl_c(void);
 void Heavy_Work(void);      	/* Load task */
 void task_code(void *args); 	/* Task body */
 
-/* ***********************************************
-* Global variables
-* ***********************************************/
-uint64_t min_iat, max_iat; // Hold the minium/maximum observed inter arrival time
-
 /* ******************
 * Main function
 * *******************/ 
 int main(int argc, char *argv[]) {
-	int err, task1, task2; 
-	struct taskArgsStruct taskAArgs, task1Args, task2Args;
+	int task1, task2, task3; 
+	struct taskArgsStruct task1Args, task2Args, task3Args;
 	cpu_set_t mask;
 	
 	/* Lock memory to prevent paging */
@@ -70,49 +66,49 @@ int main(int argc, char *argv[]) {
 
 	/* Create RT task */
 	/* Args: descriptor, name, stack size, priority [0..99] and mode (flags for CPU, FPU, joinable ...) */
-	err = rt_task_create(&task_a_desc, "Task a", TASK_STKSZ, TASK_A_PRIO, TASK_MODE);
-	if(err) {
-		printf("Error creating task a (error code = %d)\n",err);
-		return err;
-	} else 
-		printf("Task a created successfully\n");
-	
-	/* A2 - Add two other tasks */
-	/* Task 1 -> priority: 5 */
-	task1 = rt_task_create(&task_1_desc, "Task 1", TASK_STKSZ, 5, TASK_MODE);
+	task1 = rt_task_create(&task_1_desc, "1", TASK_STKSZ, TASK_A_PRIO, TASK_MODE);
 	if(task1) {
-		printf("Error creating task 1 (error code = %d)\n", task1);
+		printf("Error creating task 1 (error code = %d)\n",task1);
 		return task1;
 	} else 
 		printf("Task 1 created successfully\n");
 	
-	/* Task 2 -> priority: 50 */
-	task2 = rt_task_create(&task_2_desc, "Task 2", TASK_STKSZ, 50, TASK_MODE);
+	/* A2 - Add two other tasks */
+	/* Task 2 -> priority: 5 */
+	task2 = rt_task_create(&task_2_desc, "2", TASK_STKSZ, 5, TASK_MODE);
 	if(task2) {
 		printf("Error creating task 2 (error code = %d)\n", task2);
 		return task2;
 	} else 
 		printf("Task 2 created successfully\n");
 	
+	/* Task 3 -> priority: 50 */
+	task3 = rt_task_create(&task_3_desc, "3", TASK_STKSZ, 50, TASK_MODE);
+	if(task3) {
+		printf("Error creating task 3 (error code = %d)\n", task3);
+		return task3;
+	} else 
+		printf("Task 3 created successfully\n");
+	
 	/* A2 - Force these tasks to share the same CPU core */
 	CPU_ZERO(&mask);  		// clear all CPUs 
 	CPU_SET(1, &mask);    	// select CPU 1 
 
-	rt_task_set_affinity(&task_1_desc, &mask);
 	rt_task_set_affinity(&task_2_desc, &mask);
+	rt_task_set_affinity(&task_3_desc, &mask);
 
-	/* Start RT task a */
+	/* Start RT task 1 */
 	/* Args: task decriptor, address of function/implementation and argument*/
-	taskAArgs.taskPeriod_ns = TASK_A_PERIOD_NS; 	
-    rt_task_start(&task_a_desc, &task_code, (void *)&taskAArgs);
+	task1Args.taskPeriod_ns = TASK_A_PERIOD_NS; 	
+    rt_task_start(&task_1_desc, &task_code, (void *)&task1Args);
     
-	/* A2 - Start RT task 1 */
-	task1Args.taskPeriod_ns = TASK_A_PERIOD_NS;
-	rt_task_start(&task_1_desc, &task_code, (void *)&task1Args);
-
-	/* A2 - Start RT task 2 */
+	/* A2 - Start RT task 3 */
 	task2Args.taskPeriod_ns = TASK_A_PERIOD_NS;
 	rt_task_start(&task_2_desc, &task_code, (void *)&task2Args);
+
+	/* A2 - Start RT task 3 */
+	task3Args.taskPeriod_ns = TASK_A_PERIOD_NS;
+	rt_task_start(&task_3_desc, &task_code, (void *)&task3Args);
 
 	/* A2 - wait for termination signal */	
 	wait_for_ctrl_c();
@@ -128,13 +124,13 @@ void task_code(void *args) {
 	RT_TASK_INFO curtaskinfo;
 	struct taskArgsStruct *taskArgs;
 
-	RTIME ta1 = 0, ta2 = 0;
+	RTIME ta = 0, ta_old = 0;
 	unsigned long overruns;
 	int err;
-	
-	min_iat = UINT64_MAX;
-	max_iat = 0;
-	int activations = 0, first = 0, second = 0;
+
+	int activations = 0;
+	// Hold the minium/maximum observed inter arrival time
+	uint64_t min_iat = UINT64_MAX, max_iat = 0;
 	
 	/* Get task information */
 	curtask=rt_task_self();
@@ -146,14 +142,7 @@ void task_code(void *args) {
 	err = rt_task_set_periodic(NULL, TM_NOW, taskArgs->taskPeriod_ns);
 	for(;;) {
 		activations++;
-		if (activations % 2 != 0){
-			ta1 = rt_timer_read();
-			first = 1;
-		}
-		else{
-			ta2 = rt_timer_read();
-			second = 1;
-		}
+		ta = rt_timer_read();
 
 		err = rt_task_wait_period(&overruns);
 		if(err) {
@@ -162,28 +151,21 @@ void task_code(void *args) {
 		}
 
 		if(activations > 1){
-			if (abs(ta1 - ta2) < min_iat){
-				min_iat = abs(ta1 - ta2);
+			if (abs(ta - ta_old) < min_iat){
+				min_iat = abs(ta - ta_old);
 			}
-			if (abs(ta1 - ta2) > max_iat){
-				max_iat = abs(ta1 - ta2);
+			if (abs(ta - ta_old) > max_iat){
+				max_iat = abs(ta - ta_old);
 			}
-			if (first == 1){
-				printf("Task %s activation at time %llu min: %lu | max: %lu\n", curtaskinfo.name, ta1, min_iat, max_iat);
-			}
-			if (second == 1){
-				printf("Task %s activation at time %llu min: %lu | max: %lu\n", curtaskinfo.name, ta2, min_iat, max_iat);
-			}
+			printf("Task %s activation at time %llu min: %lu | max: %lu\n", curtaskinfo.name, ta, min_iat, max_iat);
 		}
 		else{
-			printf("Task %s activation at time %llu\n", curtaskinfo.name, ta1);
+			printf("Task %s activation at time %llu\n", curtaskinfo.name, ta);
 		}
 
 		/* Task "load" */
 		Heavy_Work();
-
-		first = 0;
-		second = 0;
+		ta_old = ta;
 	}
 	return;
 }
