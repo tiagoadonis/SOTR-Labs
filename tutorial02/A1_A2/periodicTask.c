@@ -141,14 +141,14 @@ void task_code(void *args) {
 	/* Set task as periodic */
 	err = rt_task_set_periodic(NULL, TM_NOW, taskArgs->taskPeriod_ns);
 	for(;;) {
-		activations++;
-		ta = rt_timer_read();
-
 		err = rt_task_wait_period(&overruns);
 		if(err) {
 			printf("task %s overrun!!!\n", curtaskinfo.name);
 			break;
 		}
+		
+		activations++;
+		ta = rt_timer_read();
 
 		if(activations > 1){
 			if (abs(ta - ta_old) < min_iat){

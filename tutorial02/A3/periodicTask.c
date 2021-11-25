@@ -52,7 +52,9 @@ RT_TASK task_3_desc; // Task2 decriptor
 void catch_signal(int sig); 	/* Catches CTRL + C to allow a controlled termination of the application */
 void wait_for_ctrl_c(void);
 void Heavy_Work(void);      	/* Load task */
-void task_code(void *args); 	/* Task body */
+void task1_code(void *args); 	/* Task body */
+void task2_code(void *args);
+void task3_code(void *args);
 
 /* ***********************************************
 * Shared Memory
@@ -60,7 +62,6 @@ void task_code(void *args); 	/* Task body */
 typedef struct{
 	int order;
 } access_shm;
-sem_t t1_ready;
 sem_t t2_ready;
 sem_t t3_ready;
 
@@ -76,16 +77,11 @@ int main(int argc, char *argv[]) {
 	mlockall(MCL_CURRENT|MCL_FUTURE); 
 
 	/* A3 - semaphore creation */
-	sem_init(&t1_ready, 1, 1);
 	sem_init(&t2_ready, 1, 0);
 	sem_init(&t3_ready, 1, 0);
 
-	/* A3 - shm access */
+	/* A3 - shm creation */
 	int shm_fd = shm_open("sotr_g2", O_CREAT | O_RDWR, 0666);
-	ftruncate(shm_fd, sizeof(access_shm));
-	access_shm* shared_message = (access_shm*)mmap(0, sizeof(access_shm), PROT_WRITE | PROT_READ, MAP_SHARED, shm_fd, 0);
-	shared_message->order++;
-	munmap(shared_message, sizeof(access_shm));
 	close(shm_fd);
 
 	/* Create RT task */
@@ -124,15 +120,13 @@ int main(int argc, char *argv[]) {
 	/* Start RT task 1 */
 	/* Args: task decriptor, address of function/implementation and argument*/
 	task1Args.taskPeriod_ns = TASK_A_PERIOD_NS; 	
-    rt_task_start(&task_1_desc, &task_code, (void *)&task1Args);
+    rt_task_start(&task_1_desc, &task1_code, (void *)&task1Args);
     
-	/* A2 - Start RT task 3 */
-	task2Args.taskPeriod_ns = TASK_A_PERIOD_NS;
-	rt_task_start(&task_2_desc, &task_code, (void *)&task2Args);
+	/* A2 - Start RT task 2 */
+	rt_task_start(&task_2_desc, &task2_code, (void *)&task2Args);
 
 	/* A2 - Start RT task 3 */
-	task3Args.taskPeriod_ns = TASK_A_PERIOD_NS;
-	rt_task_start(&task_3_desc, &task_code, (void *)&task3Args);
+	rt_task_start(&task_3_desc, &task3_code, (void *)&task3Args);
 
 	/* A2 - wait for termination signal */	
 	wait_for_ctrl_c();
@@ -143,7 +137,7 @@ int main(int argc, char *argv[]) {
 /* ***********************************
 * Task body implementation
 * *************************************/
-void task_code(void *args) {
+void task1_code(void *args) {
 	RT_TASK *curtask;
 	RT_TASK_INFO curtaskinfo;
 	struct taskArgsStruct *taskArgs;
@@ -165,15 +159,14 @@ void task_code(void *args) {
 	/* Set task as periodic */
 	err = rt_task_set_periodic(NULL, TM_NOW, taskArgs->taskPeriod_ns);
 	for(;;) {
-		activations++;
-		ta = rt_timer_read();
-
 		err = rt_task_wait_period(&overruns);
 		if(err) {
 			printf("task %s overrun!!!\n", curtaskinfo.name);
 			break;
 		}
 
+		activations++;
+		ta = rt_timer_read();
 		if(activations > 1){
 			if (abs(ta - ta_old) < min_iat){
 				min_iat = abs(ta - ta_old);
@@ -189,6 +182,125 @@ void task_code(void *args) {
 
 		/* Task "load" */
 		Heavy_Work();
+
+		/* A3 - shm access */
+		int shm_fd = shm_open("sotr_g2", O_CREAT | O_RDWR, 0666);
+		ftruncate(shm_fd, sizeof(access_shm));
+		access_shm* shared_message = (access_shm*)mmap(0, sizeof(access_shm), PROT_WRITE | PROT_READ, MAP_SHARED, shm_fd, 0);
+		shared_message->order = 1;
+		printf("Wrote %d on shared memory.\n", shared_message->order);
+		munmap(shared_message, sizeof(access_shm));
+		close(shm_fd);
+
+		/* A3 - Wake up task 2 */
+		sem_post(&t2_ready);
+
+		ta_old = ta;
+	}
+	return;
+}
+
+void task2_code(void *args) {
+	RT_TASK *curtask;
+	RT_TASK_INFO curtaskinfo;
+	struct taskArgsStruct *taskArgs;
+
+	RTIME ta = 0, ta_old = 0;
+	int err;
+
+	int activations = 0;
+	// Hold the minium/maximum observed inter arrival time
+	uint64_t min_iat = UINT64_MAX, max_iat = 0;
+	
+	/* Get task information */
+	curtask=rt_task_self();
+	rt_task_inquire(curtask,&curtaskinfo);
+	taskArgs=(struct taskArgsStruct *)args;
+	printf("Task %s init.\n", curtaskinfo.name);
+		
+	for(;;) {
+		sem_wait(&t2_ready);
+		activations++;
+		ta = rt_timer_read();
+		if(activations > 1){
+			if (abs(ta - ta_old) < min_iat){
+				min_iat = abs(ta - ta_old);
+			}
+			if (abs(ta - ta_old) > max_iat){
+				max_iat = abs(ta - ta_old);
+			}
+			printf("Task %s activation at time %llu min: %lu | max: %lu\n", curtaskinfo.name, ta, min_iat, max_iat);
+		}
+		else{
+			printf("Task %s activation at time %llu\n", curtaskinfo.name, ta);
+		}
+
+		/* Task "load" */
+		Heavy_Work();
+
+		/* A3 - shm access */
+		int shm_fd = shm_open("sotr_g2", O_CREAT | O_RDWR, 0666);
+		ftruncate(shm_fd, sizeof(access_shm));
+		access_shm* shared_message = (access_shm*)mmap(0, sizeof(access_shm), PROT_WRITE | PROT_READ, MAP_SHARED, shm_fd, 0);
+		shared_message->order = 2;
+		printf("Wrote %d on shared memory.\n", shared_message->order);
+		munmap(shared_message, sizeof(access_shm));
+		close(shm_fd);
+
+		/* A3 - Wake up task 3 */
+		sem_post(&t3_ready);
+		ta_old = ta;
+	}
+	return;
+}
+
+void task3_code(void *args) {
+	RT_TASK *curtask;
+	RT_TASK_INFO curtaskinfo;
+	struct taskArgsStruct *taskArgs;
+
+	RTIME ta = 0, ta_old = 0;
+	int err;
+
+	int activations = 0;
+	// Hold the minium/maximum observed inter arrival time
+	uint64_t min_iat = UINT64_MAX, max_iat = 0;
+	
+	/* Get task information */
+	curtask=rt_task_self();
+	rt_task_inquire(curtask,&curtaskinfo);
+	taskArgs=(struct taskArgsStruct *)args;
+	printf("Task %s init.\n", curtaskinfo.name);
+		
+	for(;;) {
+		sem_wait(&t3_ready);
+		activations++;
+		ta = rt_timer_read();
+		if(activations > 1){
+			if (abs(ta - ta_old) < min_iat){
+				min_iat = abs(ta - ta_old);
+			}
+			if (abs(ta - ta_old) > max_iat){
+				max_iat = abs(ta - ta_old);
+			}
+			printf("Task %s activation at time %llu min: %lu | max: %lu\n", curtaskinfo.name, ta, min_iat, max_iat);
+		}
+		else{
+			printf("Task %s activation at time %llu\n", curtaskinfo.name, ta);
+		}
+
+		/* Task "load" */
+		Heavy_Work();
+
+		/* A3 - shm access */
+		int shm_fd = shm_open("sotr_g2", O_CREAT | O_RDWR, 0666);
+		ftruncate(shm_fd, sizeof(access_shm));
+		access_shm* shared_message = (access_shm*)mmap(0, sizeof(access_shm), PROT_WRITE | PROT_READ, MAP_SHARED, shm_fd, 0);
+		shared_message->order = 3;
+		printf("Wrote %d on shared memory.\n", shared_message->order);
+		munmap(shared_message, sizeof(access_shm));
+		close(shm_fd);
+
 		ta_old = ta;
 	}
 	return;
