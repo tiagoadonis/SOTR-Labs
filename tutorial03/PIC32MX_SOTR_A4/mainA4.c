@@ -1,6 +1,6 @@
 /*
  * David Rocha nº 84807
- * Tiago Adónis nº xxxxx
+ * Tiago Adónis nº 88896
  * 
  * FREERTOS demo for ChipKit MAX32 board
  * - Creates two periodic tasks
@@ -40,7 +40,7 @@ QueueHandle_t xOutQueue = NULL;
 void pvAcq(void *pvParam){
     TickType_t xLastWakeTime, xMaxBlockTime = pdMS_TO_TICKS(100);
     uint8_t mesg[80];
-    int last_value;
+    float last_value;
     
     // Initialize the xLastWakeTime variable with the current time.
     xLastWakeTime = xTaskGetTickCount();
@@ -50,12 +50,17 @@ void pvAcq(void *pvParam){
         // Blink LD4
         PORTAbits.RA3 = !PORTAbits.RA3;
         
-        // Read Value from ADC0
-        last_value = 0;
+        // Get one sample from ADC0
+        IFS1bits.AD1IF = 0;          // Reset interrupt flag
+        AD1CON1bits.ASAM = 1;        // Start conversion
+        while (IFS1bits.AD1IF == 0); // Wait fo EOC
+
+        // Convert to 0..3.3V 
+        last_value = (ADC1BUF0 * 3.3) / 1023;
         
         // Print value
-        sprintf(mesg, "Acq value read: %d \n\r", last_value);
-        PrintStr(mesg);    
+        sprintf(mesg, "Acq value read: %.2f \n\r", last_value);
+        PrintStr(mesg);      
         
         if (xQueueSend(xProcQueue, (void *)&last_value, (TickType_t )0) != pdTRUE) {
             PrintStr("Acq error");
@@ -65,15 +70,27 @@ void pvAcq(void *pvParam){
 
 void pvProc(void *pvParam){
     uint8_t mesg[80];
-    int average_value, queue_value;
+    float average_value, queue_value;
+    float values[5] = {0, 0, 0, 0, 0};
+    float sum;
+    int index, activations = 0;
     
     for(;;) {
         if (xQueueReceive(xProcQueue, (void *)&queue_value, portMAX_DELAY) == pdTRUE) {
+            activations++;
+        
             // Calculate average
-            average_value = queue_value * 0;
+            index  = activations % 4;
+            values[index] =  queue_value;
+
+            sum = 0;
+            for (int i = 0; i < 5; i++) {
+                sum += values[i];
+            }
+            average_value = sum/5;
 
             // Print average
-            sprintf(mesg, "Proc average: %d \n\r", average_value);   
+            sprintf(mesg, "Proc average: %.2f \n\r", average_value);   
             PrintStr(mesg); 
 
             if(xQueueSend(xOutQueue, (void *) &average_value, (TickType_t )0) != pdTRUE) {
@@ -84,16 +101,16 @@ void pvProc(void *pvParam){
 }
 
 void pvOut(void *pvParam){
-    int temperature, queue_value;
+    float temperature, queue_value;
     uint8_t mesg[80];
     
     for(;;) {     
         if (xQueueReceive(xOutQueue, (void *)&(queue_value), portMAX_DELAY) == pdTRUE) {
             // Convert temperature to decimal
-            temperature = queue_value * 0;
+            temperature = queue_value * 100/3.3;
 
             // Print average in decimal
-            sprintf(mesg, "Out temperature: %d \n\r", temperature);   
+            sprintf(mesg, "Out temperature: %.2f\n\r", temperature);   
             PrintStr(mesg); 
         }
     }
@@ -106,6 +123,26 @@ int mainA4( void ){
     // Set RA3 (LD4) as output
     TRISAbits.TRISA3 = 0;
     PORTAbits.RA3 = 0;
+    
+    // Disable JTAG interface as it uses a few ADC ports
+    DDPCONbits.JTAGEN = 0;
+    
+    // Initialize ADC module
+    // Polling mode, AN0 as input
+    // Generic part
+    AD1CON1bits.SSRC = 7;       // Internal counter ends sampling and starts conversion
+    AD1CON1bits.CLRASAM = 1;    //Stop conversion when 1st A/D converter interrupt is generated and clears ASAM bit automatically
+    AD1CON1bits.FORM = 0;       // Integer 16 bit output format
+    AD1CON2bits.VCFG = 0;       // VR+=AVdd; VR-=AVss
+    AD1CON2bits.SMPI = 0;       // Number (+1) of consecutive conversions, stored in ADC1BUF0...ADCBUF{SMPI}
+    AD1CON3bits.ADRC = 1;       // ADC uses internal RC clock
+    AD1CON3bits.SAMC = 16;      // Sample time is 16TAD ( TAD = 100ns)
+    // Set AN0 as input
+    AD1CHSbits.CH0SA = 0;       // Select AN0 as input for A/D converter
+    TRISBbits.TRISB0 = 1;       // Set AN0 to input mode
+    AD1PCFGbits.PCFG0 = 0;      // Set AN0 to analog mode
+    // Enable module
+    AD1CON1bits.ON = 1;         // Enable A/D module (This must be the ***last instruction of configuration phase***)
 
 	// Init UART and redirect stdin/stdot/stderr to UART
     if(UartInit(configPERIPHERAL_CLOCK_HZ, 115200) != UART_SUCCESS) {
@@ -121,8 +158,8 @@ int mainA4( void ){
     printf("*************************************\n\r");
     
     // Initialize Queues
-    xProcQueue = xQueueCreate(2, sizeof(int));
-    xOutQueue = xQueueCreate(2, sizeof(int));
+    xProcQueue = xQueueCreate(2, sizeof(float));
+    xOutQueue = xQueueCreate(2, sizeof(float));
     
     /* Create the tasks defined within this file. */
 	xTaskCreate(pvAcq, (const signed char * const) "Acq", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
