@@ -1,6 +1,6 @@
 /*
  * David Rocha nº 84807
- * Tiago Adónis nº xxxxx
+ * Tiago Adónis nº 88896
  * 
  * FREERTOS demo for ChipKit MAX32 board
  * - Creates two periodic tasks
