@@ -83,7 +83,7 @@ int main(int argc, char *argv[]) {
 		printf("Task 2 created successfully\n");
 	
 	/* Task 3 -> priority: 50 */
-	task3 = rt_task_create(&task_3_desc, "3", TASK_STKSZ, 50, TASK_MODE);
+	task3 = rt_task_create(&task_3_desc, "3", TASK_STKSZ, 90, TASK_MODE);
 	if(task3) {
 		printf("Error creating task 3 (error code = %d)\n", task3);
 		return task3;
