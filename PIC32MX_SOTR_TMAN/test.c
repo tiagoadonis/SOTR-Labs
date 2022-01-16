@@ -5,7 +5,7 @@ void task_code(void *pvParam){
     int i, j, r = 0;
     
     TMAN_TASK_WAIT_PERIOD();
-    printf("task id: %s ticks: %d", "placeholder", 0);
+    printf("task id: %s ticks: %d", pvParam, 0);
     
     for(i = 0; i < 10; i++)
         for(j = 0; j < 10; j++)
@@ -34,12 +34,12 @@ int tman_test(){
      __XC_UART = 1;
     
     TMAN_INIT();
-    TMAN_TASK_ADD(taskA_id, task_code, NULL);
-    TMAN_TASK_ADD(taskB_id, task_code, NULL);
-    TMAN_TASK_ADD(taskC_id, task_code, NULL);
-    TMAN_TASK_ADD(taskD_id, task_code, NULL);
-    TMAN_TASK_ADD(taskE_id, task_code, NULL);
-    TMAN_TASK_ADD(taskF_id, task_code, NULL);
+    TMAN_TASK_ADD(taskA_id, task_code, (void*)taskA_id);
+    TMAN_TASK_ADD(taskB_id, task_code, (void*)taskB_id);
+    TMAN_TASK_ADD(taskC_id, task_code, (void*)taskC_id);
+    TMAN_TASK_ADD(taskD_id, task_code, (void*)taskD_id);
+    TMAN_TASK_ADD(taskE_id, task_code, (void*)taskE_id);
+    TMAN_TASK_ADD(taskF_id, task_code, (void*)taskF_id);
     
     TMAN_TASK_REGISTER_ATTRIBUTES(taskA_id, TMAN_ATTR_PERIOD, 1000);
     TMAN_TASK_REGISTER_ATTRIBUTES(taskB_id, TMAN_ATTR_PERIOD, 1000);

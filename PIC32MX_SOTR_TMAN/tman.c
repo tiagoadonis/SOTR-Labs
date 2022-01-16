@@ -19,7 +19,26 @@ int TMAN_TASK_ADD(char* task_id, void* code, void* args){
 }
 
 int TMAN_TASK_REGISTER_ATTRIBUTES(char* task_id, int attr, int value){
-    
+    switch (attr){
+        case TMAN_ATTR_PERIOD:
+            // statements
+            break;
+
+        case TMAN_ATTR_DEADLINE:
+            // statements
+            break;
+        
+        case TMAN_ATTR_PHASE:
+            // statements
+            break;
+        
+        case TMAN_ATTR_CONSTR:
+            // statements
+            break;
+        default:
+            // default statements
+            break;
+    }
     return 0;
 }
 

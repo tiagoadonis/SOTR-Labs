@@ -69,7 +69,7 @@
 static void prvSetupHardware( void );
 
 /*
- * mainSetrLedBlink create the app tasks
+ * tman_test create the app tasks
  */
 extern void tman_test( void );
 
