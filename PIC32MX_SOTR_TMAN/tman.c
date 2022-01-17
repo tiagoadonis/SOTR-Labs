@@ -1,53 +1,104 @@
 #include "../PIC32MX_SOTR_TMAN/tman.h"
 
+// Global Variables
+static TMAN_TASK_HANDLER handlers[16];
+static TMAN_STATUS status;
+
 /*
- * Prototypes and tasks
+ * Private Definitions
+ */
+int get_handler_index(char* id){
+    int rv = TMAN_FAIL;
+    for (int i = 0; i < 16; i++){
+        if (!strcmp(handlers[i].task_id, id))
+            rv = i;
+    }
+    return rv;
+}
+
+/*
+ * Public Definitions
  */
 int TMAN_INIT(){
-    
-    return 0;
+    status.new_task_index = 0;
+    return TMAN_SUCCESS;
 }
 
 int TMAN_CLOSE(){
-    
-    return 0;
+    vTaskStartScheduler();
+    return TMAN_FAIL;
 }
 
-int TMAN_TASK_ADD(char* task_id, void* code, void* args){
+int TMAN_TASK_ADD(char* task_id, TaskFunction_t code, void* args){
+    int index = status.new_task_index;
     
-    return 0;
+    BaseType_t xReturned;
+    TaskHandle_t xHandle = NULL;
+    
+    xReturned = xTaskCreate(code, (const signed char* const) task_id, configMINIMAL_STACK_SIZE, (void*) args, tskIDLE_PRIORITY, &xHandle);    
+
+    if( xReturned != pdPASS )
+        return TMAN_FAIL;
+    
+    handlers[index].task_id = task_id;
+    handlers[index].activations = 0;
+    status.new_task_index++;
+    
+    return TMAN_SUCCESS;
 }
 
 int TMAN_TASK_REGISTER_ATTRIBUTES(char* task_id, int attr, int value){
+    int index = get_handler_index(task_id);
+    if (index == TMAN_FAIL)
+        return index;
+    
     switch (attr){
         case TMAN_ATTR_PERIOD:
-            // statements
+            handlers[index].period = pdMS_TO_TICKS(value);
             break;
 
         case TMAN_ATTR_DEADLINE:
-            // statements
+            // TODO
             break;
         
         case TMAN_ATTR_PHASE:
-            // statements
+            // TODO
             break;
         
         case TMAN_ATTR_CONSTR:
-            // statements
+            // TODO
             break;
         default:
             // default statements
             break;
     }
-    return 0;
+    return TMAN_SUCCESS;
 }
 
-int TMAN_TASK_WAIT_PERIOD(){
+int TMAN_TASK_WAIT_PERIOD(char* task_id){
+    TickType_t period;
+    TickType_t last_time;
+    int index = get_handler_index(task_id);
     
-    return 0;
+    if (index == TMAN_FAIL)
+        return index;
+    
+    last_time = handlers[index].last_activation_time;
+    period = handlers[index].period;
+    handlers[index].activations++;
+    
+    vTaskDelayUntil(&last_time, period);
+    
+    return TMAN_SUCCESS;
 }
 
-int TMAN_TASK_STATS(char* task_id){
+int TMAN_TASK_STATS(TMAN_TASK_STATUS* status_handler, char* task_id){
+    int index = get_handler_index(task_id);
+    if (index == TMAN_FAIL)
+        return index;
     
-    return 0;
+    status_handler->task_id = handlers[index].task_id;
+    status_handler->activations = handlers[index].activations;
+            
+    return TMAN_SUCCESS;
 }
