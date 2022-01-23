@@ -16,17 +16,16 @@
 #define TMAN_FAIL -1
 
 // Define attribute codes
-#define TMAN_ATTR_PERIOD 0
-#define TMAN_ATTR_DEADLINE 1
-#define TMAN_ATTR_PHASE 2
-#define TMAN_ATTR_CONSTR 3
+#define TMAN_ATTR_PERIOD 1
+#define TMAN_ATTR_DEADLINE 2
+#define TMAN_ATTR_PHASE 3
+#define TMAN_ATTR_CONSTR 4
 
 // Define framework related codes
 #define TMAN_MAX_TASKS 16
 
 typedef struct TMAN_TASK_HANDLER {
-    char* task_id;
-    int activations;
+    char task_id[2];
     TickType_t period;
     TickType_t last_activation_time;
     TickType_t deadline;
@@ -34,8 +33,8 @@ typedef struct TMAN_TASK_HANDLER {
 } TMAN_TASK_HANDLER;
 
 typedef struct TMAN_TASK_STATUS {
-    char* task_id;
-    int activations;
+    char task_id[2];
+    TickType_t activation_time;
 } TMAN_TASK_STATUS;
 
 typedef struct TMAN_STATUS {

@@ -9,7 +9,7 @@ static TMAN_STATUS status;
  */
 int get_handler_index(char* id){
     int rv = TMAN_FAIL;
-    for (int i = 0; i < 16; i++){
+    for (int i = 0; i < status.new_task_index; i++){
         if (!strcmp(handlers[i].task_id, id))
             rv = i;
     }
@@ -40,8 +40,8 @@ int TMAN_TASK_ADD(char* task_id, TaskFunction_t code, void* args){
     if( xReturned != pdPASS )
         return TMAN_FAIL;
     
-    handlers[index].task_id = task_id;
-    handlers[index].activations = 0;
+    memcpy(&handlers[index].task_id, task_id, 2);
+    handlers[index].last_activation_time = xTaskGetTickCount();
     status.new_task_index++;
     
     return TMAN_SUCCESS;
@@ -77,18 +77,17 @@ int TMAN_TASK_REGISTER_ATTRIBUTES(char* task_id, int attr, int value){
 
 int TMAN_TASK_WAIT_PERIOD(char* task_id){
     TickType_t period;
-    TickType_t last_time;
+    TickType_t* last_time;
     int index = get_handler_index(task_id);
     
     if (index == TMAN_FAIL)
         return index;
     
-    last_time = handlers[index].last_activation_time;
+    last_time = &handlers[index].last_activation_time;
     period = handlers[index].period;
-    handlers[index].activations++;
     
-    vTaskDelayUntil(&last_time, period);
-    
+    vTaskDelayUntil(last_time, period);
+            
     return TMAN_SUCCESS;
 }
 
@@ -97,8 +96,8 @@ int TMAN_TASK_STATS(TMAN_TASK_STATUS* status_handler, char* task_id){
     if (index == TMAN_FAIL)
         return index;
     
-    status_handler->task_id = handlers[index].task_id;
-    status_handler->activations = handlers[index].activations;
+    memcpy(&status_handler->task_id, &handlers[index].task_id, 2);
+    status_handler->activation_time = handlers[index].last_activation_time;
             
     return TMAN_SUCCESS;
 }
