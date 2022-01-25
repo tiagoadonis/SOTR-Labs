@@ -10,6 +10,7 @@
 /* Kernel includes. */
 #include "FreeRTOS.h"
 #include "task.h"
+#include "queue.h"
 
 // Define return codes
 #define TMAN_SUCCESS 0
@@ -23,9 +24,11 @@
 
 // Define framework related codes
 #define TMAN_MAX_TASKS 16
+#define TMAN_TICK_PERIOD 1000
 
 typedef struct TMAN_TASK_HANDLER {
     char task_id[2];
+    int activations;
     TickType_t period;
     TickType_t last_activation_time;
     TickType_t deadline;
@@ -37,9 +40,10 @@ typedef struct TMAN_TASK_STATUS {
     TickType_t activation_time;
 } TMAN_TASK_STATUS;
 
-typedef struct TMAN_STATUS {
+typedef struct TMAN_CONTROL {
     int new_task_index;
-} TMAN_STATUS;
+    QueueHandle_t print_queue;
+} TMAN_CONTROL;
 
 // Define prototypes (public interface)
 int TMAN_INIT();
@@ -47,6 +51,7 @@ int TMAN_CLOSE();
 int TMAN_TASK_ADD(char* task_id, TaskFunction_t code, void* args);
 int TMAN_TASK_REGISTER_ATTRIBUTES(char* task_id, int attr, int value);
 int TMAN_TASK_WAIT_PERIOD(char* task_id);
-int TMAN_TASK_STATS(TMAN_TASK_STATUS* handler, char* task_id);
+int TMAN_TASK_STATS(char* task_id, TMAN_TASK_STATUS* handler);
+int TMAN_PRINT(char* msg);
 
 #endif

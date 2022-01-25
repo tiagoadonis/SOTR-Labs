@@ -5,7 +5,8 @@ build/USB-II_STARTER_KIT/production/_ext/1472/tman.o: ../tman.c \
  ../../../Source/include/deprecated_definitions.h \
  ../../../Source/portable/MPLAB/PIC32MX/portmacro.h \
  ../../../Source/include/mpu_wrappers.h ../../../Source/include/task.h \
- ../../../Source/include/list.h
+ ../../../Source/include/list.h ../../../Source/include/queue.h \
+ ../../../Source/include/task.h
 
 ../../PIC32MX_SOTR_TMAN/tman.h:
 
@@ -26,3 +27,7 @@ build/USB-II_STARTER_KIT/production/_ext/1472/tman.o: ../tman.c \
 ../../../Source/include/task.h:
 
 ../../../Source/include/list.h:
+
+../../../Source/include/queue.h:
+
+../../../Source/include/task.h:
