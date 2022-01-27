@@ -29,6 +29,12 @@
 typedef struct TMAN_TASK_HANDLER {
     char task_id[2];
     int activations;
+    char constr_take[2][2];
+    char constr_give[2][2];
+    int constr_give_not_index[2];
+    int num_constrs_take;
+    int num_constrs_give;
+    TaskHandle_t task_handle;
     TickType_t period;
     TickType_t last_activation_time;
     TickType_t deadline;
@@ -42,6 +48,7 @@ typedef struct TMAN_TASK_STATUS {
 
 typedef struct TMAN_CONTROL {
     int new_task_index;
+    TickType_t ticks;
     QueueHandle_t print_queue;
 } TMAN_CONTROL;
 
@@ -49,9 +56,10 @@ typedef struct TMAN_CONTROL {
 int TMAN_INIT();
 int TMAN_CLOSE();
 int TMAN_TASK_ADD(char* task_id, TaskFunction_t code, void* args);
-int TMAN_TASK_REGISTER_ATTRIBUTES(char* task_id, int attr, int value);
+int TMAN_TASK_REGISTER_ATTRIBUTES(char* task_id, int attr, void* value);
 int TMAN_TASK_WAIT_PERIOD(char* task_id);
 int TMAN_TASK_STATS(char* task_id, TMAN_TASK_STATUS* handler);
+int TMAN_TASK_END(char* task_id);
 int TMAN_PRINT(char* msg);
 
 #endif

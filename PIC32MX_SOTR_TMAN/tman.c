@@ -16,6 +16,23 @@ void tman_printer(void *pvParam){
     }
 }
 
+void tman_scheduler(void *pvParam){  
+    TickType_t block_time = pdMS_TO_TICKS(TMAN_TICK_PERIOD);
+    TickType_t last_time = 0;
+    
+    for(;;) {
+        for (int i = 0; i < tman_control.new_task_index; i++){
+            TMAN_TASK_HANDLER temp_handler = tman_handlers[i];
+            int is_ready = tman_control.ticks % temp_handler.period == temp_handler.phase;
+            is_ready = is_ready && (temp_handler.activations * temp_handler.deadline <= tman_control.ticks + temp_handler.phase);
+            if (is_ready)
+                xTaskNotifyGiveIndexed(tman_handlers[i].task_handle, 0);
+        }
+        vTaskDelayUntil(&last_time, block_time);
+        tman_control.ticks++;
+    }
+}
+
 /*
  * Private Definitions
  */
@@ -34,7 +51,9 @@ int get_handler_index(char* id){
 int TMAN_INIT(){
     tman_control.new_task_index = 0;
     tman_control.print_queue = NULL;
+    tman_control.ticks = 0;
     
+    xTaskCreate(tman_scheduler, NULL, configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
     xTaskCreate(tman_printer, NULL, configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL);
     tman_control.print_queue = xQueueCreate(6, sizeof(char)*80);
     
@@ -50,75 +69,76 @@ int TMAN_TASK_ADD(char* task_id, TaskFunction_t code, void* args){
     int index = tman_control.new_task_index;
     
     BaseType_t xReturned;
-    TaskHandle_t xHandle = NULL;
     
-    xReturned = xTaskCreate(code, (const signed char* const) task_id, configMINIMAL_STACK_SIZE, (void*) args, tskIDLE_PRIORITY, &xHandle);    
+    xReturned = xTaskCreate(code, (const signed char* const) task_id, configMINIMAL_STACK_SIZE, (void*) args, tskIDLE_PRIORITY, &tman_handlers[index].task_handle);    
 
     if( xReturned != pdPASS )
         return TMAN_FAIL;
     
     memcpy(&tman_handlers[index].task_id, task_id, 2);
-    tman_handlers[index].last_activation_time = xTaskGetTickCount();
+    tman_handlers[index].last_activation_time = 0;
     tman_handlers[index].period = 0;
     tman_handlers[index].deadline = 0;
     tman_handlers[index].phase = 0;
     tman_handlers[index].activations = 0;
+    tman_handlers[index].num_constrs_take = 0;
+    tman_handlers[index].num_constrs_give = 0;
     tman_control.new_task_index++;
     
     return TMAN_SUCCESS;
 }
 
-int TMAN_TASK_REGISTER_ATTRIBUTES(char* task_id, int attr, int value){
+int TMAN_TASK_REGISTER_ATTRIBUTES(char* task_id, int attr, void* value){
+    int constr_index;
     int index = get_handler_index(task_id);
     if (index == TMAN_FAIL)
         return index;
     
     switch (attr){
         case TMAN_ATTR_PERIOD:
-            tman_handlers[index].period = pdMS_TO_TICKS(value * TMAN_TICK_PERIOD);
+            tman_handlers[index].period = *((int *) value);
             break;
 
         case TMAN_ATTR_DEADLINE:
-            tman_handlers[index].deadline = pdMS_TO_TICKS(value * TMAN_TICK_PERIOD);
+            tman_handlers[index].deadline = *((int *) value);
             break;
         
         case TMAN_ATTR_PHASE:
-            tman_handlers[index].phase = pdMS_TO_TICKS(value * TMAN_TICK_PERIOD);
+            tman_handlers[index].phase = *((int *) value);
             break;
         
         case TMAN_ATTR_CONSTR:
-            // TODO
+            constr_index = get_handler_index((char *) value);
+            
+            memcpy(tman_handlers[constr_index].constr_give[tman_handlers[constr_index].num_constrs_give], task_id, 2);
+            tman_handlers[constr_index].constr_give_not_index[tman_handlers[constr_index].num_constrs_give] = tman_handlers[index].num_constrs_take+1;
+            tman_handlers[constr_index].num_constrs_give++;
+                    
+            memcpy(tman_handlers[index].constr_take[tman_handlers[index].num_constrs_take], (char *) value, 2);
+            tman_handlers[index].num_constrs_take++;
             break;
         default:
-            // default statements
             break;
     }
     return TMAN_SUCCESS;
 }
 
 int TMAN_TASK_WAIT_PERIOD(char* task_id){
-    TickType_t period, phase, deadline;
-    TickType_t* last_time;
-    int activations; 
-    
     int index = get_handler_index(task_id);
     
     if (index == TMAN_FAIL)
         return index;
     
-    last_time = &tman_handlers[index].last_activation_time;
-    period = tman_handlers[index].period;
-    phase = tman_handlers[index].phase;
-    deadline = tman_handlers[index].deadline;
-    activations = tman_handlers[index].activations;
-    
-    if(!activations){
-        vTaskDelayUntil(last_time, period + phase);
+    ulTaskNotifyTakeIndexed(0, pdTRUE, portMAX_DELAY);
+    if(tman_handlers[index].num_constrs_take){
+        for(int i = 0; i < tman_handlers[index].num_constrs_take; i++){
+            ulTaskNotifyTakeIndexed(i+1, pdTRUE, portMAX_DELAY);
+        }
     }
-    else
-        vTaskDelayUntil(last_time, period);
     
+    tman_handlers[index].last_activation_time = xTaskGetTickCount();
     tman_handlers[index].activations++;
+    
     return TMAN_SUCCESS;
 }
 
@@ -130,6 +150,21 @@ int TMAN_TASK_STATS(char* task_id, TMAN_TASK_STATUS* status_handler){
     memcpy(&status_handler->task_id, &tman_handlers[index].task_id, 2);
     status_handler->activation_time = tman_handlers[index].last_activation_time / TMAN_TICK_PERIOD;
             
+    return TMAN_SUCCESS;
+}
+
+int TMAN_TASK_END(char* task_id){
+    int constr_index;
+    int index = get_handler_index(task_id);
+    
+    if (index == TMAN_FAIL)
+        return index;
+    
+    for(int i = 0; i < tman_handlers[index].num_constrs_give; i++){
+        constr_index = get_handler_index(tman_handlers[index].constr_give[i]);
+        xTaskNotifyGiveIndexed(tman_handlers[constr_index].task_handle, tman_handlers[index].constr_give_not_index[i]);
+    }
+    
     return TMAN_SUCCESS;
 }
 

@@ -9,119 +9,119 @@ c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpi
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(strcmp.o)
                               build/USB-II_STARTER_KIT/production/_ext/1472/tman.o (strcmp)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o (_bootstrap_exception_handler)
+                              C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o (_bootstrap_exception_handler)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o (_on_reset)
+                              C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o (_on_reset)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o (_on_bootstrap)
+                              C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o (_on_bootstrap)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o (_nmi_handler)
+                              C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o (_nmi_handler)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(xc32_uart.o)
                               build/USB-II_STARTER_KIT/production/_ext/1472/test.o (__XC_UART)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o (__pic32_data_init)
+                              C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o (__pic32_data_init)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o (_general_exception_context)
+                              C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o (_general_exception_context)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector0.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_0)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_0)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector2.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_2)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_2)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector3.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_3)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_3)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector5.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_5)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_5)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector6.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_6)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_6)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector7.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_7)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_7)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector8.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_8)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_8)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector9.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_9)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_9)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector10.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_10)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_10)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector11.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_11)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_11)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector12.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_12)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_12)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector13.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_13)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_13)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector14.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_14)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_14)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector15.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_15)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_15)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector16.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_16)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_16)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector17.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_17)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_17)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector18.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_18)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_18)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector19.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_19)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_19)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector20.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_20)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_20)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector21.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_21)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_21)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector22.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_22)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_22)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector23.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_23)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_23)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector24.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_24)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_24)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector25.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_25)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_25)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector26.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_26)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_26)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector27.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_27)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_27)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector28.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_28)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_28)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector29.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_29)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_29)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector30.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_30)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_30)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector31.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_31)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_31)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector32.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_32)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_32)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector33.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_33)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_33)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector34.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_34)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_34)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector35.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_35)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_35)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector36.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_36)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_36)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector37.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_37)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_37)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector38.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_38)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_38)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector39.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_39)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_39)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector40.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_40)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_40)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector41.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_41)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_41)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector42.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_42)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_42)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector43.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_43)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_43)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector44.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_44)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_44)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector45.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_45)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_45)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector46.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_46)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_46)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector47.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_47)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_47)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector48.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_48)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_48)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector49.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_49)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_49)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector50.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_50)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_50)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector51.o)
-                              C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o (__vector_dispatch_51)
+                              C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o (__vector_dispatch_51)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
                               c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector0.o) (_DefaultInterrupt)
 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
@@ -194,68 +194,67 @@ Microchip PIC32 Memory-Usage Report
 kseg0 Program-Memory Usage
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
-.text                   0x9d000000         0x6ef4       28404  App's exec code 
-.text.vfprintf          0x9d006ef4         0x18ac        6316   
-.text                   0x9d0087a0          0xfb8        4024  App's exec code 
-.text._vfprintf_cdnopsu 0x9d009758          0x8cc        2252   
-.text                   0x9d00a024         0x105c        4188  App's exec code 
-.text._vfprintf_s       0x9d00b080          0x6bc        1724   
-.text.dp32mul           0x9d00b73c          0x4b8        1208   
-.text                   0x9d00bbf4          0x8a4        2212  App's exec code 
-.text                   0x9d00c498          0x898        2200  App's exec code 
-.text                   0x9d00cd30          0x440        1088  App's exec code 
-.text.dp32subadd        0x9d00d170          0x430        1072   
-.text                   0x9d00d5a0          0x7e4        2020  App's exec code 
-.text                   0x9d00dd84          0x6e0        1760  App's exec code 
-.text.dp32mul           0x9d00e464          0x32c         812   
-.text                   0x9d00e790          0x4d0        1232  App's exec code 
-.text.scale             0x9d00ec60          0x1f8         504   
-.dinit                  0x9d00ee58          0x170         368   
-.text                   0x9d00efc8          0x168         360  App's exec code 
-.rodata                 0x9d00f130          0x160         352  Read-only const 
-.text.fround            0x9d00f290          0x13c         316   
-.text.dpcmp             0x9d00f3cc          0x12c         300   
-.text.fputc             0x9d00f4f8          0x128         296   
-.text._mon_putc         0x9d00f620          0x128         296   
-.text                   0x9d00f748          0x120         288  App's exec code 
-.text._flsbuf           0x9d00f868          0x10c         268   
-.rodata                 0x9d00f974          0x104         260  Read-only const 
-.text.__fixdfdi         0x9d00fa78           0xe0         224   
-.text.general_exception 0x9d00fb58           0xdc         220   
-.rodata                 0x9d00fc34           0xd4         212  Read-only const 
-.text                   0x9d00fd08           0xa8         168  App's exec code 
-.text.libm              0x9d00fdb0           0xa8         168   
-.rodata                 0x9d00fe58          0x140         320  Read-only const 
-.rodata                 0x9d00ff98           0xa0         160  Read-only const 
-.text                   0x9d010038           0x98         152  App's exec code 
-.text.__orderdf2        0x9d0100d0           0x90         144   
-.text.dptoul            0x9d010160           0x8c         140   
-.text.write             0x9d0101ec           0x88         136   
-.text                   0x9d010274           0x84         132  App's exec code 
-.text.__fixunsdfdi      0x9d0102f8           0x80         128   
-.text.litodp            0x9d010378           0x78         120   
-.text                   0x9d0103f0           0x74         116  App's exec code 
-.text._sprintf_cdnopsux 0x9d010464           0x64         100   
-.text.main_entry        0x9d0104c8           0x54          84   
-.rodata                 0x9d01051c           0x48          72  Read-only const 
-.text._bootstrap_except 0x9d010564           0x48          72   
-.vector_default         0x9d0105ac           0x48          72   
-.text                   0x9d0105f4           0x88         136  App's exec code 
-.text                   0x9d01067c           0x3c          60  App's exec code 
-.text._printf_s         0x9d0106b8           0x38          56   
-.text.printf            0x9d0106f0           0x38          56   
-.rodata                 0x9d010728           0x30          48  Read-only const 
-.rodata.str1.4          0x9d010758           0x60          96   
-.rodata.cst8            0x9d0107b8           0x28          40   
-.rodata                 0x9d0107e0           0x44          68  Read-only const 
-.rodata.str1.4          0x9d010824           0x1c          28   
-.MIPS.abiflags          0x9d010840           0x18          24   
-.rodata                 0x9d010858           0x18          24  Read-only const 
-.text                   0x9d010870           0x18          24  App's exec code 
-.text._on_reset         0x9d010888            0x8           8   
-.text._on_bootstrap     0x9d010890            0x8           8   
-.rodata.cst8            0x9d010898           0x10          16   
-      Total kseg0_program_mem used  :     0x108a8       67752  12.9% of 0x80000
+.text                   0x9d000000         0x6f14       28436  App's exec code 
+.text.vfprintf          0x9d006f14         0x18ac        6316   
+.text                   0x9d0087c0         0x1dd0        7632  App's exec code 
+.text._vfprintf_cdnopsu 0x9d00a590          0x8cc        2252   
+.text                   0x9d00ae5c          0x838        2104  App's exec code 
+.text._vfprintf_s       0x9d00b694          0x6bc        1724   
+.text                   0x9d00bd50          0x5c0        1472  App's exec code 
+.text.dp32mul           0x9d00c310          0x4b8        1208   
+.text                   0x9d00c7c8          0x8a4        2212  App's exec code 
+.text                   0x9d00d06c          0x888        2184  App's exec code 
+.text.dp32subadd        0x9d00d8f4          0x430        1072   
+.text                   0x9d00dd24          0x7e4        2020  App's exec code 
+.text                   0x9d00e508          0x6e0        1760  App's exec code 
+.text.dp32mul           0x9d00ebe8          0x32c         812   
+.text                   0x9d00ef14          0x4d0        1232  App's exec code 
+.text.scale             0x9d00f3e4          0x1f8         504   
+.text                   0x9d00f5dc          0x168         360  App's exec code 
+.rodata                 0x9d00f748          0x160         352  Read-only const 
+.dinit                  0x9d00f8a8          0x160         352   
+.text.fround            0x9d00fa08          0x13c         316   
+.text.dpcmp             0x9d00fb44          0x12c         300   
+.text.fputc             0x9d00fc70          0x128         296   
+.text._mon_putc         0x9d00fd98          0x128         296   
+.text                   0x9d00fec0          0x120         288  App's exec code 
+.text._flsbuf           0x9d00ffe0          0x10c         268   
+.rodata                 0x9d0100ec          0x1f8         504  Read-only const 
+.text.__fixdfdi         0x9d0102e4           0xe0         224   
+.text.general_exception 0x9d0103c4           0xdc         220   
+.text                   0x9d0104a0           0xa8         168  App's exec code 
+.text.libm              0x9d010548           0xa8         168   
+.rodata                 0x9d0105f0          0x140         320  Read-only const 
+.rodata                 0x9d010730           0xa0         160  Read-only const 
+.text                   0x9d0107d0           0x98         152  App's exec code 
+.text.__orderdf2        0x9d010868           0x90         144   
+.text.dptoul            0x9d0108f8           0x8c         140   
+.text.write             0x9d010984           0x88         136   
+.text                   0x9d010a0c           0x84         132  App's exec code 
+.text.__fixunsdfdi      0x9d010a90           0x80         128   
+.text.litodp            0x9d010b10           0x78         120   
+.text                   0x9d010b88           0x74         116  App's exec code 
+.text._sprintf_cdnopsux 0x9d010bfc           0x64         100   
+.text.main_entry        0x9d010c60           0x54          84   
+.rodata                 0x9d010cb4           0x48          72  Read-only const 
+.text._bootstrap_except 0x9d010cfc           0x48          72   
+.vector_default         0x9d010d44           0x48          72   
+.text                   0x9d010d8c           0x88         136  App's exec code 
+.text                   0x9d010e14           0x3c          60  App's exec code 
+.text._printf_s         0x9d010e50           0x38          56   
+.text.printf            0x9d010e88           0x38          56   
+.rodata                 0x9d010ec0           0x30          48  Read-only const 
+.rodata.str1.4          0x9d010ef0           0x60          96   
+.rodata.cst8            0x9d010f50           0x28          40   
+.rodata                 0x9d010f78           0x44          68  Read-only const 
+.rodata.str1.4          0x9d010fbc           0x1c          28   
+.MIPS.abiflags          0x9d010fd8           0x18          24   
+.rodata                 0x9d010ff0           0x18          24  Read-only const 
+.text                   0x9d011008           0x18          24  App's exec code 
+.text._on_reset         0x9d011020            0x8           8   
+.text._on_bootstrap     0x9d011028            0x8           8   
+.rodata.cst8            0x9d011030           0x10          16   
+      Total kseg0_program_mem used  :     0x1103c       69692  13.3% of 0x80000
 
 kseg0 Boot-Memory Usage
 section                    address  length [bytes]      (dec)  Description
@@ -327,7 +326,7 @@ section                    address  length [bytes]      (dec)  Description
 .bev_excpt              0xbfc00380           0x10          16  BEV-Exception 
          Total kseg1_boot_mem used  :       0x1ac         428  36.6% of 0x490
         --------------------------------------------------------------------------
-         Total Program Memory used  :     0x10c04       68612  12.9% of 0x81e00
+         Total Program Memory used  :     0x11398       70552  13.3% of 0x81e00
         --------------------------------------------------------------------------
 
 
@@ -335,25 +334,25 @@ kseg1 Data-Memory Usage
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
 .sdata                  0xa0000000            0x8           8  Small init data 
-.sbss                   0xa0000008           0x7c         124  Small uninit data 
-.bss                    0xa0000084         0x6d60       28000  Uninitialized data 
-.data                   0xa0006de4            0x4           4  Initialized data 
-.bss                    0xa0006de8          0x568        1384  Uninitialized data 
-.bss                    0xa0007350           0xc8         200  Uninitialized data 
-.data                   0xa0007418           0xa4         164  Initialized data 
-.bss                    0xa00074bc           0x41          65  Uninitialized data 
-.bss                    0xa0007500           0x28          40  Uninitialized data 
-         Total kseg1_data_mem used  :      0x7525       29989  22.9% of 0x20000
+.sbss                   0xa0000008           0x74         116  Small uninit data 
+.bss                    0xa000007c         0x6d60       28000  Uninitialized data 
+.data                   0xa0006ddc            0x4           4  Initialized data 
+.bss                    0xa0006de0          0x734        1844  Uninitialized data 
+.bss                    0xa0007514           0xc8         200  Uninitialized data 
+.data                   0xa00075dc           0xa4         164  Initialized data 
+.bss                    0xa0007680           0x41          65  Uninitialized data 
+.bss                    0xa00076c4           0x28          40  Uninitialized data 
+         Total kseg1_data_mem used  :      0x76e9       30441  23.2% of 0x20000
         --------------------------------------------------------------------------
-            Total Data Memory used  :      0x7525       29989  22.9% of 0x20000
+            Total Data Memory used  :      0x76e9       30441  23.2% of 0x20000
         --------------------------------------------------------------------------
 
 
 Dynamic Data-Memory Reservation
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
-heap                    0xa0007530              0           0  Reserved for heap 
-stack                   0xa0007548        0x18ab0      101040  Reserved for stack 
+heap                    0xa00076f0              0           0  Reserved for heap 
+stack                   0xa0007708        0x188e8      100584  Reserved for stack 
 
         --------------------------------------------------------------------------
 
@@ -399,16 +398,16 @@ Discarded input sections
  .reginfo       0x0000000000000000       0x18 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
- .reginfo       0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
+ .reginfo       0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
- .reginfo       0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\cciyHlkC.o
+                0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
+ .reginfo       0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\ccAb1i1A.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\cciyHlkC.o
- .reginfo       0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o
+                0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\ccAb1i1A.o
+ .reginfo       0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o
- .discard       0x0000000000000000       0xd0 C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o
+                0x0000000000000000       0x18 C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o
+ .discard       0x0000000000000000       0xd0 C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o
  .reginfo       0x0000000000000000       0x18 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
@@ -1059,9 +1058,9 @@ LOAD build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
 LOAD build/USB-II_STARTER_KIT/production/_ext/1472/test.o
                 0x0000000000000001                __MPLAB_BUILD = 0x1
                 0x0000000000000000                _min_heap_size = 0x0
-LOAD C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
-LOAD C:\Users\dmtar\AppData\Local\Temp\cciyHlkC.o
-LOAD C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o
+LOAD C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
+LOAD C:\Users\dmtar\AppData\Local\Temp\ccAb1i1A.o
+LOAD C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o
 LOAD c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
 LOAD c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a
 START GROUP
@@ -1121,16 +1120,16 @@ END GROUP
 
 .reset          0x00000000bfc00000      0x19c
  *(.reset)
- .reset         0x00000000bfc00000        0x8 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
+ .reset         0x00000000bfc00000        0x8 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
                 0x00000000bfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0x00000000bfc00008      0x194 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
+                0x00000000bfc00008      0x194 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
                 0x00000000bfc00008                _startup
 
 .bev_excpt      0x00000000bfc00380       0x10
  *(.bev_handler)
- .bev_handler   0x00000000bfc00380       0x10 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
+ .bev_handler   0x00000000bfc00380       0x10 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
 
 .dbg_excpt      0x00000000bfc00480        0x0
                 0x00000000bfc00480                . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
@@ -1140,7 +1139,7 @@ END GROUP
 
 .app_excpt      0x000000009fc01180       0x10
  *(.gen_handler)
- .gen_handler   0x000000009fc01180       0x10 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
+ .gen_handler   0x000000009fc01180       0x10 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
 
 .vector_0       0x000000009fc01200        0x8
  *(.vector_0)
@@ -1638,7 +1637,7 @@ END GROUP
                 0x00000000a0000008                _data_end = .
                 0x00000000a0000008                _bss_begin = .
 
-.sbss           0x00000000a0000008       0x7c
+.sbss           0x00000000a0000008       0x74
                 0x00000000a0000008                _sbss_begin = .
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
@@ -1648,18 +1647,17 @@ END GROUP
                 0x00000000a000000c                pxCurrentTCB
  .sbss          0x00000000a0000048       0x14 build/USB-II_STARTER_KIT/production/_ext/449926602/timers.o
  .sbss          0x00000000a000005c       0x20 build/USB-II_STARTER_KIT/production/_ext/1884096877/heap_4.o
- .sbss          0x00000000a000007c        0x8 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
  *(.scommon)
-                0x00000000a0000084                _sbss_end = .
-                0x00000000a0000084                . = ALIGN (0x4)
+                0x00000000a000007c                _sbss_end = .
+                0x00000000a000007c                . = ALIGN (0x4)
 
-.bss            0x00000000a0000084        0x0
+.bss            0x00000000a000007c        0x0
  *(.dynbss)
  *(COMMON)
-                0x00000000a0000084                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x00000000a0000084                . = ALIGN (0x4)
-                0x00000000a0000084                _end = .
-                0x00000000a0000084                _bss_end = .
+                0x00000000a000007c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000a000007c                . = ALIGN (0x4)
+                0x00000000a000007c                _end = .
+                0x00000000a000007c                _bss_end = .
                 0x0000000000020000                _bmxdudba_address = LENGTH (kseg1_data_mem)
                 0x0000000000020000                _bmxdupba_address = LENGTH (kseg1_data_mem)
 
@@ -1910,7 +1908,7 @@ END GROUP
  *.elf(.debug_pubnames)
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000   0x2307cd
+.debug_info     0x0000000000000000   0x230a72
  *.elf(.debug_info .gnu.linkonce.wi.*)
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000    0x326c9 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
@@ -1923,34 +1921,34 @@ END GROUP
  .debug_info    0x0000000000131aa8    0x32606 build/USB-II_STARTER_KIT/production/_ext/1472/main.o
  .debug_info    0x00000000001640ae    0x32591 build/USB-II_STARTER_KIT/production/_ext/1472/ConfigPerformance.o
  .debug_info    0x000000000019663f    0x32544 build/USB-II_STARTER_KIT/production/_ext/1852901230/uart.o
- .debug_info    0x00000000001c8b83    0x328a6 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
- .debug_info    0x00000000001fb429    0x325bd build/USB-II_STARTER_KIT/production/_ext/1472/test.o
- .debug_info    0x000000000022d9e6       0x41 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_info    0x000000000022da27       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_info    0x000000000022da66       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_info    0x000000000022daa5       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_info    0x000000000022dae5       0x3e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
- .debug_info    0x000000000022db23       0x3e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
- .debug_info    0x000000000022db61       0x3e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
- .debug_info    0x000000000022db9f       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
- .debug_info    0x000000000022dbde       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
- .debug_info    0x000000000022dc1d       0x9b c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
- .debug_info    0x000000000022dcb8       0x48 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
- .debug_info    0x000000000022dd00       0x3e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
- .debug_info    0x000000000022dd3e       0x46 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
- .debug_info    0x000000000022dd84       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
- .debug_info    0x000000000022ddc3       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
- .debug_info    0x000000000022de02      0x33c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
- .debug_info    0x000000000022e13e      0x27f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
- .debug_info    0x000000000022e3bd      0x8aa c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
- .debug_info    0x000000000022ec67      0x907 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
- .debug_info    0x000000000022f56e      0x85c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
- .debug_info    0x000000000022fdca      0x8d4 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
- .debug_info    0x000000000023069e       0xaf c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
- .debug_info    0x000000000023074d       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
- .debug_info    0x000000000023078d       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
+ .debug_info    0x00000000001c8b83    0x32a11 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
+ .debug_info    0x00000000001fb594    0x326f7 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
+ .debug_info    0x000000000022dc8b       0x41 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x000000000022dccc       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_info    0x000000000022dd0b       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x000000000022dd4a       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_info    0x000000000022dd8a       0x3e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
+ .debug_info    0x000000000022ddc8       0x3e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
+ .debug_info    0x000000000022de06       0x3e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
+ .debug_info    0x000000000022de44       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
+ .debug_info    0x000000000022de83       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
+ .debug_info    0x000000000022dec2       0x9b c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+ .debug_info    0x000000000022df5d       0x48 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
+ .debug_info    0x000000000022dfa5       0x3e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
+ .debug_info    0x000000000022dfe3       0x46 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
+ .debug_info    0x000000000022e029       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
+ .debug_info    0x000000000022e068       0x3f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
+ .debug_info    0x000000000022e0a7      0x33c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
+ .debug_info    0x000000000022e3e3      0x27f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
+ .debug_info    0x000000000022e662      0x8aa c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
+ .debug_info    0x000000000022ef0c      0x907 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
+ .debug_info    0x000000000022f813      0x85c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
+ .debug_info    0x000000000023006f      0x8d4 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
+ .debug_info    0x0000000000230943       0xaf c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
+ .debug_info    0x00000000002309f2       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
+ .debug_info    0x0000000000230a32       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
 
-.debug_abbrev   0x0000000000000000     0x2bc7
+.debug_abbrev   0x0000000000000000     0x2be3
  *.elf(.debug_abbrev)
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x351 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
@@ -1963,78 +1961,78 @@ END GROUP
  .debug_abbrev  0x0000000000001217      0x273 build/USB-II_STARTER_KIT/production/_ext/1472/main.o
  .debug_abbrev  0x000000000000148a      0x221 build/USB-II_STARTER_KIT/production/_ext/1472/ConfigPerformance.o
  .debug_abbrev  0x00000000000016ab      0x27c build/USB-II_STARTER_KIT/production/_ext/1852901230/uart.o
- .debug_abbrev  0x0000000000001927      0x283 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
- .debug_abbrev  0x0000000000001baa      0x234 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
- .debug_abbrev  0x0000000000001dde       0x31 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_abbrev  0x0000000000001e0f       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_abbrev  0x0000000000001e3d       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_abbrev  0x0000000000001e6b       0x31 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_abbrev  0x0000000000001e9c       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
- .debug_abbrev  0x0000000000001eca       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
- .debug_abbrev  0x0000000000001ef8       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
- .debug_abbrev  0x0000000000001f26       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
- .debug_abbrev  0x0000000000001f54       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
- .debug_abbrev  0x0000000000001f82       0x70 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
- .debug_abbrev  0x0000000000001ff2       0x37 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
- .debug_abbrev  0x0000000000002029       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
- .debug_abbrev  0x0000000000002057       0x35 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
- .debug_abbrev  0x000000000000208c       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
- .debug_abbrev  0x00000000000020ba       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
- .debug_abbrev  0x00000000000020e8      0x17e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
- .debug_abbrev  0x0000000000002266       0xe1 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
- .debug_abbrev  0x0000000000002347      0x1ec c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
- .debug_abbrev  0x0000000000002533      0x1f5 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
- .debug_abbrev  0x0000000000002728      0x1d8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
- .debug_abbrev  0x0000000000002900      0x1ee c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
- .debug_abbrev  0x0000000000002aee       0x7d c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
- .debug_abbrev  0x0000000000002b6b       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
- .debug_abbrev  0x0000000000002b99       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
+ .debug_abbrev  0x0000000000001927      0x29f build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
+ .debug_abbrev  0x0000000000001bc6      0x234 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
+ .debug_abbrev  0x0000000000001dfa       0x31 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_abbrev  0x0000000000001e2b       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_abbrev  0x0000000000001e59       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_abbrev  0x0000000000001e87       0x31 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_abbrev  0x0000000000001eb8       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
+ .debug_abbrev  0x0000000000001ee6       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
+ .debug_abbrev  0x0000000000001f14       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
+ .debug_abbrev  0x0000000000001f42       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
+ .debug_abbrev  0x0000000000001f70       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
+ .debug_abbrev  0x0000000000001f9e       0x70 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+ .debug_abbrev  0x000000000000200e       0x37 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
+ .debug_abbrev  0x0000000000002045       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
+ .debug_abbrev  0x0000000000002073       0x35 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
+ .debug_abbrev  0x00000000000020a8       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
+ .debug_abbrev  0x00000000000020d6       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
+ .debug_abbrev  0x0000000000002104      0x17e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x0000000000002282       0xe1 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
+ .debug_abbrev  0x0000000000002363      0x1ec c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
+ .debug_abbrev  0x000000000000254f      0x1f5 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
+ .debug_abbrev  0x0000000000002744      0x1d8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x000000000000291c      0x1ee c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x0000000000002b0a       0x7d c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x0000000000002b87       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
+ .debug_abbrev  0x0000000000002bb5       0x2e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
 
-.debug_line     0x0000000000000000     0x6d94
+.debug_line     0x0000000000000000     0x6ecb
  *.elf(.debug_line)
  *(.debug_line)
  .debug_line    0x0000000000000000      0x30e build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
  .debug_line    0x000000000000030e       0xe4 build/USB-II_STARTER_KIT/production/_ext/332309696/port_asm.o
  .debug_line    0x00000000000003f2      0xa52 build/USB-II_STARTER_KIT/production/_ext/449926602/queue.o
- .debug_line    0x0000000000000e44      0xf43 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
- .debug_line    0x0000000000001d87      0x338 build/USB-II_STARTER_KIT/production/_ext/449926602/list.o
- .debug_line    0x00000000000020bf      0x5fe build/USB-II_STARTER_KIT/production/_ext/449926602/timers.o
- .debug_line    0x00000000000026bd      0x4ee build/USB-II_STARTER_KIT/production/_ext/1884096877/heap_4.o
- .debug_line    0x0000000000002bab      0x2e3 build/USB-II_STARTER_KIT/production/_ext/1472/main.o
- .debug_line    0x0000000000002e8e      0x2f9 build/USB-II_STARTER_KIT/production/_ext/1472/ConfigPerformance.o
- .debug_line    0x0000000000003187      0x278 build/USB-II_STARTER_KIT/production/_ext/1852901230/uart.o
- .debug_line    0x00000000000033ff      0x428 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
- .debug_line    0x0000000000003827      0x2d1 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
- .debug_line    0x0000000000003af8       0xca c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_line    0x0000000000003bc2       0xa6 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_line    0x0000000000003c68       0xaa c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_line    0x0000000000003d12        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(xc32_uart.o)
- .debug_line    0x0000000000003d12       0xc9 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_line    0x0000000000003ddb       0xa8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
- .debug_line    0x0000000000003e83       0xa8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
- .debug_line    0x0000000000003f2b       0xc3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
- .debug_line    0x0000000000003fee        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_iob.o)
- .debug_line    0x0000000000003fee      0x35b c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
- .debug_line    0x0000000000004349      0x2e7 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
- .debug_line    0x0000000000004630      0x83f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
- .debug_line    0x0000000000004e6f       0xf3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
- .debug_line    0x0000000000004f62        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ctype.o)
- .debug_line    0x0000000000004f62        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ldpowers.o)
- .debug_line    0x0000000000004f62       0xfb c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
- .debug_line    0x000000000000505d       0xb4 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
- .debug_line    0x0000000000005111       0xbe c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
- .debug_line    0x00000000000051cf       0xd2 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
- .debug_line    0x00000000000052a1      0x290 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
- .debug_line    0x0000000000005531      0x274 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
- .debug_line    0x00000000000057a5      0x4d7 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
- .debug_line    0x0000000000005c7c      0x518 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
- .debug_line    0x0000000000006194      0x490 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
- .debug_line    0x0000000000006624      0x4d9 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
- .debug_line    0x0000000000006afd       0xbe c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
- .debug_line    0x0000000000006bbb       0xb8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
- .debug_line    0x0000000000006c73      0x121 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
+ .debug_line    0x0000000000000e44      0xf49 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
+ .debug_line    0x0000000000001d8d      0x338 build/USB-II_STARTER_KIT/production/_ext/449926602/list.o
+ .debug_line    0x00000000000020c5      0x5fe build/USB-II_STARTER_KIT/production/_ext/449926602/timers.o
+ .debug_line    0x00000000000026c3      0x4ee build/USB-II_STARTER_KIT/production/_ext/1884096877/heap_4.o
+ .debug_line    0x0000000000002bb1      0x2e3 build/USB-II_STARTER_KIT/production/_ext/1472/main.o
+ .debug_line    0x0000000000002e94      0x2f9 build/USB-II_STARTER_KIT/production/_ext/1472/ConfigPerformance.o
+ .debug_line    0x000000000000318d      0x278 build/USB-II_STARTER_KIT/production/_ext/1852901230/uart.o
+ .debug_line    0x0000000000003405      0x511 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
+ .debug_line    0x0000000000003916      0x319 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
+ .debug_line    0x0000000000003c2f       0xca c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x0000000000003cf9       0xa6 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_line    0x0000000000003d9f       0xaa c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x0000000000003e49        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(xc32_uart.o)
+ .debug_line    0x0000000000003e49       0xc9 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_line    0x0000000000003f12       0xa8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
+ .debug_line    0x0000000000003fba       0xa8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
+ .debug_line    0x0000000000004062       0xc3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
+ .debug_line    0x0000000000004125        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_iob.o)
+ .debug_line    0x0000000000004125      0x35b c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
+ .debug_line    0x0000000000004480      0x2e7 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
+ .debug_line    0x0000000000004767      0x83f c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+ .debug_line    0x0000000000004fa6       0xf3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
+ .debug_line    0x0000000000005099        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ctype.o)
+ .debug_line    0x0000000000005099        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ldpowers.o)
+ .debug_line    0x0000000000005099       0xfb c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
+ .debug_line    0x0000000000005194       0xb4 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
+ .debug_line    0x0000000000005248       0xbe c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
+ .debug_line    0x0000000000005306       0xd2 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
+ .debug_line    0x00000000000053d8      0x290 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000000000005668      0x274 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
+ .debug_line    0x00000000000058dc      0x4d7 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
+ .debug_line    0x0000000000005db3      0x518 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
+ .debug_line    0x00000000000062cb      0x490 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
+ .debug_line    0x000000000000675b      0x4d9 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
+ .debug_line    0x0000000000006c34       0xbe c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
+ .debug_line    0x0000000000006cf2       0xb8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
+ .debug_line    0x0000000000006daa      0x121 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
 
-.debug_frame    0x0000000000000000     0x1af4
+.debug_frame    0x0000000000000000     0x1b34
  *.elf(.debug_frame)
  *(.debug_frame)
  .debug_frame   0x0000000000000000      0x144 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
@@ -2046,34 +2044,34 @@ END GROUP
  .debug_frame   0x0000000000001278      0x10c build/USB-II_STARTER_KIT/production/_ext/1472/main.o
  .debug_frame   0x0000000000001384       0xb8 build/USB-II_STARTER_KIT/production/_ext/1472/ConfigPerformance.o
  .debug_frame   0x000000000000143c       0xb8 build/USB-II_STARTER_KIT/production/_ext/1852901230/uart.o
- .debug_frame   0x00000000000014f4      0x14c build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
- .debug_frame   0x0000000000001640       0x50 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
- .debug_frame   0x0000000000001690       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_frame   0x00000000000016bc       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_frame   0x00000000000016dc       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_frame   0x00000000000016fc       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_frame   0x000000000000171c       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
- .debug_frame   0x0000000000001748       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
- .debug_frame   0x0000000000001774       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
- .debug_frame   0x00000000000017a0       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
- .debug_frame   0x00000000000017e0       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
- .debug_frame   0x0000000000001820       0x8c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
- .debug_frame   0x00000000000018ac       0x34 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
- .debug_frame   0x00000000000018e0       0x30 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
- .debug_frame   0x0000000000001910       0x34 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
- .debug_frame   0x0000000000001944       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
- .debug_frame   0x0000000000001964       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
- .debug_frame   0x0000000000001984       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
- .debug_frame   0x00000000000019a4       0x34 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
- .debug_frame   0x00000000000019d8       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
- .debug_frame   0x00000000000019f8       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
- .debug_frame   0x0000000000001a18       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
- .debug_frame   0x0000000000001a38       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
- .debug_frame   0x0000000000001a58       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
- .debug_frame   0x0000000000001a84       0x34 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
- .debug_frame   0x0000000000001ab8       0x3c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
+ .debug_frame   0x00000000000014f4      0x18c build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
+ .debug_frame   0x0000000000001680       0x50 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
+ .debug_frame   0x00000000000016d0       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_frame   0x00000000000016fc       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_frame   0x000000000000171c       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_frame   0x000000000000173c       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_frame   0x000000000000175c       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
+ .debug_frame   0x0000000000001788       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
+ .debug_frame   0x00000000000017b4       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
+ .debug_frame   0x00000000000017e0       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
+ .debug_frame   0x0000000000001820       0x40 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
+ .debug_frame   0x0000000000001860       0x8c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+ .debug_frame   0x00000000000018ec       0x34 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
+ .debug_frame   0x0000000000001920       0x30 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
+ .debug_frame   0x0000000000001950       0x34 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
+ .debug_frame   0x0000000000001984       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
+ .debug_frame   0x00000000000019a4       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
+ .debug_frame   0x00000000000019c4       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
+ .debug_frame   0x00000000000019e4       0x34 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
+ .debug_frame   0x0000000000001a18       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000001a38       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
+ .debug_frame   0x0000000000001a58       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000001a78       0x20 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
+ .debug_frame   0x0000000000001a98       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
+ .debug_frame   0x0000000000001ac4       0x34 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
+ .debug_frame   0x0000000000001af8       0x3c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
 
-.debug_str      0x0000000000000000    0xb965b
+.debug_str      0x0000000000000000    0xb9813
  *.elf(.debug_str)
  *(.debug_str)
  .debug_str     0x0000000000000000    0x10267 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
@@ -2086,36 +2084,36 @@ END GROUP
  .debug_str     0x00000000000623e0    0x1017b build/USB-II_STARTER_KIT/production/_ext/1472/main.o
  .debug_str     0x000000000007255b    0x1018a build/USB-II_STARTER_KIT/production/_ext/1472/ConfigPerformance.o
  .debug_str     0x00000000000826e5    0x100cf build/USB-II_STARTER_KIT/production/_ext/1852901230/uart.o
- .debug_str     0x00000000000927b4    0x10287 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
- .debug_str     0x00000000000a2a3b    0x1011f build/USB-II_STARTER_KIT/production/_ext/1472/test.o
- .debug_str     0x00000000000b2b5a      0x3b3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_str     0x00000000000b2f0d      0x38d c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_str     0x00000000000b329a      0x395 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_str     0x00000000000b362f      0x37c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(xc32_uart.o)
- .debug_str     0x00000000000b39ab      0x3a7 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_str     0x00000000000b3d52      0x3b5 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
- .debug_str     0x00000000000b4107      0x3b2 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
- .debug_str     0x00000000000b44b9      0x3bf c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
- .debug_str     0x00000000000b4878      0x3a9 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_iob.o)
- .debug_str     0x00000000000b4c21      0x3bf c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
- .debug_str     0x00000000000b4fe0      0x3b7 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
- .debug_str     0x00000000000b5397      0x3c1 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
- .debug_str     0x00000000000b5758      0x3b0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
- .debug_str     0x00000000000b5b08      0x3aa c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ctype.o)
- .debug_str     0x00000000000b5eb2      0x3ad c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ldpowers.o)
- .debug_str     0x00000000000b625f      0x3b3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
- .debug_str     0x00000000000b6612      0x32b c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
- .debug_str     0x00000000000b693d      0x329 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
- .debug_str     0x00000000000b6c66      0x328 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
- .debug_str     0x00000000000b6f8e      0x4a6 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
- .debug_str     0x00000000000b7434      0x47c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
- .debug_str     0x00000000000b78b0      0x4e2 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
- .debug_str     0x00000000000b7d92      0x4e2 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
- .debug_str     0x00000000000b8274      0x4e3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
- .debug_str     0x00000000000b8757      0x4e3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
- .debug_str     0x00000000000b8c3a      0x31d c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
- .debug_str     0x00000000000b8f57      0x37e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
- .debug_str     0x00000000000b92d5      0x386 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
+ .debug_str     0x00000000000927b4    0x1037b build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
+ .debug_str     0x00000000000a2b2f    0x101e3 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
+ .debug_str     0x00000000000b2d12      0x3b3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_str     0x00000000000b30c5      0x38d c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_str     0x00000000000b3452      0x395 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_str     0x00000000000b37e7      0x37c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(xc32_uart.o)
+ .debug_str     0x00000000000b3b63      0x3a7 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_str     0x00000000000b3f0a      0x3b5 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
+ .debug_str     0x00000000000b42bf      0x3b2 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
+ .debug_str     0x00000000000b4671      0x3bf c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
+ .debug_str     0x00000000000b4a30      0x3a9 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_iob.o)
+ .debug_str     0x00000000000b4dd9      0x3bf c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
+ .debug_str     0x00000000000b5198      0x3b7 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
+ .debug_str     0x00000000000b554f      0x3c1 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+ .debug_str     0x00000000000b5910      0x3b0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
+ .debug_str     0x00000000000b5cc0      0x3aa c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ctype.o)
+ .debug_str     0x00000000000b606a      0x3ad c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ldpowers.o)
+ .debug_str     0x00000000000b6417      0x3b3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
+ .debug_str     0x00000000000b67ca      0x32b c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
+ .debug_str     0x00000000000b6af5      0x329 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
+ .debug_str     0x00000000000b6e1e      0x328 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
+ .debug_str     0x00000000000b7146      0x4a6 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
+ .debug_str     0x00000000000b75ec      0x47c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
+ .debug_str     0x00000000000b7a68      0x4e2 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
+ .debug_str     0x00000000000b7f4a      0x4e2 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
+ .debug_str     0x00000000000b842c      0x4e3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
+ .debug_str     0x00000000000b890f      0x4e3 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
+ .debug_str     0x00000000000b8df2      0x31d c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
+ .debug_str     0x00000000000b910f      0x37e c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
+ .debug_str     0x00000000000b948d      0x386 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
 
 .debug_loc      0x0000000000000000     0x2c1a
  *.elf(.debug_loc)
@@ -2211,11 +2209,11 @@ END GROUP
  .gnu.attributes
                 0x00000000000000c0       0x10 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
  .gnu.attributes
-                0x00000000000000d0       0x10 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
+                0x00000000000000d0       0x10 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
  .gnu.attributes
-                0x00000000000000e0       0x10 C:\Users\dmtar\AppData\Local\Temp\cciyHlkC.o
+                0x00000000000000e0       0x10 C:\Users\dmtar\AppData\Local\Temp\ccAb1i1A.o
  .gnu.attributes
-                0x00000000000000f0       0x10 C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o
+                0x00000000000000f0       0x10 C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o
  .gnu.attributes
                 0x0000000000000100       0x10 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
  .gnu.attributes
@@ -2409,37 +2407,37 @@ LOAD data_init
 .reginfo        0x0000000000000000       0x18
  .reginfo       0x0000000000000000       0x18 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\debug-exception-return.o
 
-.stack          0x00000000a0007548      0x400
- .stack         0x00000000a0007548      0x400 stack
+.stack          0x00000000a0007708      0x400
+ .stack         0x00000000a0007708      0x400 stack
 
-.bss            0x00000000a0000084     0x6d60
- .bss           0x00000000a0000084     0x6d60 build/USB-II_STARTER_KIT/production/_ext/1884096877/heap_4.o
+.bss            0x00000000a000007c     0x6d60
+ .bss           0x00000000a000007c     0x6d60 build/USB-II_STARTER_KIT/production/_ext/1884096877/heap_4.o
 
-.bss            0x00000000a0006de8      0x568
- .bss           0x00000000a0006de8      0x3e8 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
-                0x00000000a0006de8                xISRStack
- .bss           0x00000000a00071d0      0x180 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
+.bss            0x00000000a0006de0      0x734
+ .bss           0x00000000a0006de0      0x3e8 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
+                0x00000000a0006de0                xISRStack
+ .bss           0x00000000a00071c8      0x34c build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
 
-.bss            0x00000000a0007350       0xc8
- .bss           0x00000000a0007350       0xc8 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
+.bss            0x00000000a0007514       0xc8
+ .bss           0x00000000a0007514       0xc8 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
 
-.data           0x00000000a0007418       0xa4
- .data          0x00000000a0007418       0xa4 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_iob.o)
-                0x00000000a0007418                _Files
-                0x00000000a000741c                _iob
+.data           0x00000000a00075dc       0xa4
+ .data          0x00000000a00075dc       0xa4 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_iob.o)
+                0x00000000a00075dc                _Files
+                0x00000000a00075e0                _iob
 
-.bss            0x00000000a00074bc       0x41
- .bss           0x00000000a00074bc       0x41 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_iob.o)
-                0x00000000a00074bc                _sobuf
-                0x00000000a00074dc                _sibuf
-                0x00000000a00074fc                _outdone
+.bss            0x00000000a0007680       0x41
+ .bss           0x00000000a0007680       0x41 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_iob.o)
+                0x00000000a0007680                _sobuf
+                0x00000000a00076a0                _sibuf
+                0x00000000a00076c0                _outdone
 
-.bss            0x00000000a0007500       0x28
- .bss           0x00000000a0007500       0x28 build/USB-II_STARTER_KIT/production/_ext/449926602/timers.o
+.bss            0x00000000a00076c4       0x28
+ .bss           0x00000000a00076c4       0x28 build/USB-II_STARTER_KIT/production/_ext/449926602/timers.o
 
-.data           0x00000000a0006de4        0x4
- .data          0x00000000a0006de4        0x4 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
-                0x00000000a0006de4                uxTopUsedPriority
+.data           0x00000000a0006ddc        0x4
+ .data          0x00000000a0006ddc        0x4 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
+                0x00000000a0006ddc                uxTopUsedPriority
 
 .bss%z1         0x0000000000000000        0x0
  .bss           0x0000000000000000        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(litodp.o)
@@ -2994,22 +2992,22 @@ LOAD data_init
  .data          0x0000000000000000        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
 
 .bss%z185       0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o
+ .bss           0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o
 
 .data%z186      0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o
+ .data          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o
 
 .bss%z187       0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\cciyHlkC.o
+ .bss           0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccAb1i1A.o
 
 .data%z188      0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\cciyHlkC.o
+ .data          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccAb1i1A.o
 
 .bss%z189       0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
+ .bss           0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
 
 .data%z190      0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
+ .data          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
 
 .bss%z191       0x0000000000000000        0x0
  .bss           0x0000000000000000        0x0 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
@@ -3077,423 +3075,423 @@ LOAD data_init
                 0x00000000bfc00480       0x2c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\debug-exception-return.o
                 0x00000000bfc00480                __DbgExecReturn
 
-.text           0x000000009d000000     0x6ef4
- .text          0x000000009d000000     0x4ba0 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
+.text           0x000000009d000000     0x6f14
+ .text          0x000000009d000000     0x4bc0 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
                 0x000000009d000000                xTaskCreate
                 0x000000009d000584                vTaskDelete
                 0x000000009d00074c                xTaskDelayUntil
                 0x000000009d0008fc                vTaskDelay
                 0x000000009d0009ac                eTaskGetState
-                0x000000009d000b4c                uxTaskPriorityGet
-                0x000000009d000bb8                uxTaskPriorityGetFromISR
-                0x000000009d000c2c                vTaskPrioritySet
-                0x000000009d000f44                vTaskSuspend
-                0x000000009d0011f8                vTaskResume
-                0x000000009d0013e0                xTaskResumeFromISR
-                0x000000009d0015d8                vTaskStartScheduler
-                0x000000009d0016ec                vTaskEndScheduler
-                0x000000009d001760                vTaskSuspendAll
-                0x000000009d001790                xTaskResumeAll
-                0x000000009d001ae8                xTaskGetTickCount
-                0x000000009d001b14                xTaskGetTickCountFromISR
-                0x000000009d001b44                uxTaskGetNumberOfTasks
-                0x000000009d001b68                pcTaskGetName
-                0x000000009d001bdc                xTaskCatchUpTicks
-                0x000000009d001c50                xTaskIncrementTick
-                0x000000009d002000                vTaskSwitchContext
-                0x000000009d0021a8                vTaskPlaceOnEventList
-                0x000000009d002224                vTaskPlaceOnUnorderedEventList
-                0x000000009d00232c                vTaskPlaceOnEventListRestricted
-                0x000000009d002414                xTaskRemoveFromEventList
-                0x000000009d002724                vTaskRemoveFromUnorderedEventList
-                0x000000009d0029c8                vTaskSetTimeOutState
-                0x000000009d002a40                vTaskInternalSetTimeOutState
-                0x000000009d002a80                xTaskCheckForTimeOut
-                0x000000009d002bdc                vTaskMissedYield
-                0x000000009d002e54                uxTaskGetStackHighWaterMark
-                0x000000009d002f64                xTaskGetCurrentTaskHandle
-                0x000000009d002f90                xTaskGetSchedulerState
-                0x000000009d002ff0                xTaskPriorityInherit
-                0x000000009d003248                xTaskPriorityDisinherit
-                0x000000009d003480                vTaskPriorityDisinheritAfterTimeout
-                0x000000009d00371c                vTaskEnterCritical
-                0x000000009d0037d4                vTaskExitCritical
-                0x000000009d00385c                uxTaskResetEventItemValue
-                0x000000009d0038a4                pvTaskIncrementMutexHeldCount
-                0x000000009d0038e4                ulTaskGenericNotifyTake
-                0x000000009d003a50                xTaskGenericNotifyWait
-                0x000000009d003c1c                xTaskGenericNotify
-                0x000000009d004050                xTaskGenericNotifyFromISR
-                0x000000009d004514                vTaskGenericNotifyGiveFromISR
-                0x000000009d004878                xTaskGenericNotifyStateClear
-                0x000000009d004940                ulTaskGenericNotifyValueClear
- .text          0x000000009d004ba0     0x2354 build/USB-II_STARTER_KIT/production/_ext/449926602/queue.o
-                0x000000009d004ba0                xQueueGenericReset
-                0x000000009d004d9c                xQueueGenericCreate
-                0x000000009d004fc0                xQueueCreateMutex
-                0x000000009d005028                xQueueGiveMutexRecursive
-                0x000000009d0050f0                xQueueTakeMutexRecursive
-                0x000000009d0051c4                xQueueCreateCountingSemaphore
-                0x000000009d005274                xQueueGenericSend
-                0x000000009d005604                xQueueGenericSendFromISR
-                0x000000009d00581c                xQueueGiveFromISR
-                0x000000009d0059ec                xQueueReceive
-                0x000000009d005cfc                xQueueSemaphoreTake
-                0x000000009d006098                xQueuePeek
-                0x000000009d0063b0                xQueueReceiveFromISR
-                0x000000009d006560                xQueuePeekFromISR
-                0x000000009d00668c                uxQueueMessagesWaiting
-                0x000000009d0066f8                uxQueueSpacesAvailable
-                0x000000009d006778                uxQueueMessagesWaitingFromISR
-                0x000000009d0067dc                vQueueDelete
-                0x000000009d006cc0                xQueueIsQueueEmptyFromISR
-                0x000000009d006da8                xQueueIsQueueFullFromISR
-                0x000000009d006e2c                vQueueWaitForMessageRestricted
+                0x000000009d000b50                uxTaskPriorityGet
+                0x000000009d000bbc                uxTaskPriorityGetFromISR
+                0x000000009d000c30                vTaskPrioritySet
+                0x000000009d000f48                vTaskSuspend
+                0x000000009d001200                vTaskResume
+                0x000000009d0013e8                xTaskResumeFromISR
+                0x000000009d0015e0                vTaskStartScheduler
+                0x000000009d0016f4                vTaskEndScheduler
+                0x000000009d001768                vTaskSuspendAll
+                0x000000009d001798                xTaskResumeAll
+                0x000000009d001af0                xTaskGetTickCount
+                0x000000009d001b1c                xTaskGetTickCountFromISR
+                0x000000009d001b4c                uxTaskGetNumberOfTasks
+                0x000000009d001b70                pcTaskGetName
+                0x000000009d001be4                xTaskCatchUpTicks
+                0x000000009d001c58                xTaskIncrementTick
+                0x000000009d002008                vTaskSwitchContext
+                0x000000009d0021b0                vTaskPlaceOnEventList
+                0x000000009d00222c                vTaskPlaceOnUnorderedEventList
+                0x000000009d002334                vTaskPlaceOnEventListRestricted
+                0x000000009d00241c                xTaskRemoveFromEventList
+                0x000000009d00272c                vTaskRemoveFromUnorderedEventList
+                0x000000009d0029d0                vTaskSetTimeOutState
+                0x000000009d002a48                vTaskInternalSetTimeOutState
+                0x000000009d002a88                xTaskCheckForTimeOut
+                0x000000009d002be4                vTaskMissedYield
+                0x000000009d002e5c                uxTaskGetStackHighWaterMark
+                0x000000009d002f6c                xTaskGetCurrentTaskHandle
+                0x000000009d002f98                xTaskGetSchedulerState
+                0x000000009d002ff8                xTaskPriorityInherit
+                0x000000009d003250                xTaskPriorityDisinherit
+                0x000000009d003488                vTaskPriorityDisinheritAfterTimeout
+                0x000000009d003724                vTaskEnterCritical
+                0x000000009d0037dc                vTaskExitCritical
+                0x000000009d003864                uxTaskResetEventItemValue
+                0x000000009d0038ac                pvTaskIncrementMutexHeldCount
+                0x000000009d0038ec                ulTaskGenericNotifyTake
+                0x000000009d003a5c                xTaskGenericNotifyWait
+                0x000000009d003c2c                xTaskGenericNotify
+                0x000000009d004064                xTaskGenericNotifyFromISR
+                0x000000009d00452c                vTaskGenericNotifyGiveFromISR
+                0x000000009d004894                xTaskGenericNotifyStateClear
+                0x000000009d004960                ulTaskGenericNotifyValueClear
+ .text          0x000000009d004bc0     0x2354 build/USB-II_STARTER_KIT/production/_ext/449926602/queue.o
+                0x000000009d004bc0                xQueueGenericReset
+                0x000000009d004dbc                xQueueGenericCreate
+                0x000000009d004fe0                xQueueCreateMutex
+                0x000000009d005048                xQueueGiveMutexRecursive
+                0x000000009d005110                xQueueTakeMutexRecursive
+                0x000000009d0051e4                xQueueCreateCountingSemaphore
+                0x000000009d005294                xQueueGenericSend
+                0x000000009d005624                xQueueGenericSendFromISR
+                0x000000009d00583c                xQueueGiveFromISR
+                0x000000009d005a0c                xQueueReceive
+                0x000000009d005d1c                xQueueSemaphoreTake
+                0x000000009d0060b8                xQueuePeek
+                0x000000009d0063d0                xQueueReceiveFromISR
+                0x000000009d006580                xQueuePeekFromISR
+                0x000000009d0066ac                uxQueueMessagesWaiting
+                0x000000009d006718                uxQueueSpacesAvailable
+                0x000000009d006798                uxQueueMessagesWaitingFromISR
+                0x000000009d0067fc                vQueueDelete
+                0x000000009d006ce0                xQueueIsQueueEmptyFromISR
+                0x000000009d006dc8                xQueueIsQueueFullFromISR
+                0x000000009d006e4c                vQueueWaitForMessageRestricted
 
-.text.vfprintf  0x000000009d006ef4     0x18ac
+.text.vfprintf  0x000000009d006f14     0x18ac
  .text.vfprintf
-                0x000000009d006ef4     0x18ac c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
-                0x000000009d006ef4                vfprintf
+                0x000000009d006f14     0x18ac c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+                0x000000009d006f14                vfprintf
 
-.text           0x000000009d0087a0      0xfb8
- .text          0x000000009d0087a0      0xfb8 build/USB-II_STARTER_KIT/production/_ext/449926602/timers.o
-                0x000000009d0087a0                xTimerCreateTimerTask
-                0x000000009d008838                xTimerCreate
-                0x000000009d00898c                xTimerGenericCommand
-                0x000000009d008ab4                xTimerGetTimerDaemonTaskHandle
-                0x000000009d008b00                xTimerGetPeriod
-                0x000000009d008b5c                vTimerSetReloadMode
-                0x000000009d008c0c                uxTimerGetReloadMode
-                0x000000009d008c9c                xTimerGetExpiryTime
-                0x000000009d008d00                pcTimerGetName
-                0x000000009d0095dc                xTimerIsTimerActive
-                0x000000009d00966c                pvTimerGetTimerID
-                0x000000009d0096e0                vTimerSetTimerID
+.text           0x000000009d0087c0     0x1dd0
+ .text          0x000000009d0087c0      0xfb8 build/USB-II_STARTER_KIT/production/_ext/449926602/timers.o
+                0x000000009d0087c0                xTimerCreateTimerTask
+                0x000000009d008858                xTimerCreate
+                0x000000009d0089ac                xTimerGenericCommand
+                0x000000009d008ad4                xTimerGetTimerDaemonTaskHandle
+                0x000000009d008b20                xTimerGetPeriod
+                0x000000009d008b7c                vTimerSetReloadMode
+                0x000000009d008c2c                uxTimerGetReloadMode
+                0x000000009d008cbc                xTimerGetExpiryTime
+                0x000000009d008d20                pcTimerGetName
+                0x000000009d0095fc                xTimerIsTimerActive
+                0x000000009d00968c                pvTimerGetTimerID
+                0x000000009d009700                vTimerSetTimerID
+ .text          0x000000009d009778      0xe18 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
+                0x000000009d009778                tman_printer
+                0x000000009d0097d8                tman_scheduler
+                0x000000009d00997c                get_handler_index
+                0x000000009d009a2c                TMAN_INIT
+                0x000000009d009ae4                TMAN_CLOSE
+                0x000000009d009b18                TMAN_TASK_ADD
+                0x000000009d009d4c                TMAN_TASK_REGISTER_ATTRIBUTES
+                0x000000009d00a118                TMAN_TASK_WAIT_PERIOD
+                0x000000009d00a2c0                TMAN_TASK_STATS
+                0x000000009d00a3a4                TMAN_TASK_END
+                0x000000009d00a520                TMAN_PRINT
 
 .text._vfprintf_cdnopsuxX
-                0x000000009d009758      0x8cc
+                0x000000009d00a590      0x8cc
  .text._vfprintf_cdnopsuxX
-                0x000000009d009758      0x8cc c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
-                0x000000009d009758                _vfprintf_s
-                0x000000009d009758                _vfprintf_cdnopsuxX
-                0x000000009d009758                _vfprintf_0
+                0x000000009d00a590      0x8cc c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
+                0x000000009d00a590                _vfprintf_s
+                0x000000009d00a590                _vfprintf_cdnopsuxX
+                0x000000009d00a590                _vfprintf_0
 
-.text           0x000000009d00a024     0x105c
- .text          0x000000009d00a024      0x838 build/USB-II_STARTER_KIT/production/_ext/1884096877/heap_4.o
-                0x000000009d00a024                pvPortMalloc
-                0x000000009d00a310                vPortFree
-                0x000000009d00a440                xPortGetFreeHeapSize
-                0x000000009d00a464                xPortGetMinimumEverFreeHeapSize
-                0x000000009d00a488                vPortInitialiseBlocks
-                0x000000009d00a724                vPortGetHeapStats
- .text          0x000000009d00a85c      0x824 build/USB-II_STARTER_KIT/production/_ext/1472/tman.o
-                0x000000009d00a85c                tman_printer
-                0x000000009d00a8b4                get_handler_index
-                0x000000009d00a958                TMAN_INIT
-                0x000000009d00a9c8                TMAN_CLOSE
-                0x000000009d00a9fc                TMAN_TASK_ADD
-                0x000000009d00ab84                TMAN_TASK_REGISTER_ATTRIBUTES
-                0x000000009d00ad90                TMAN_TASK_WAIT_PERIOD
-                0x000000009d00af44                TMAN_TASK_STATS
-                0x000000009d00b018                TMAN_PRINT
+.text           0x000000009d00ae5c      0x838
+ .text          0x000000009d00ae5c      0x838 build/USB-II_STARTER_KIT/production/_ext/1884096877/heap_4.o
+                0x000000009d00ae5c                pvPortMalloc
+                0x000000009d00b148                vPortFree
+                0x000000009d00b278                xPortGetFreeHeapSize
+                0x000000009d00b29c                xPortGetMinimumEverFreeHeapSize
+                0x000000009d00b2c0                vPortInitialiseBlocks
+                0x000000009d00b55c                vPortGetHeapStats
 
 .text._vfprintf_s
-                0x000000009d00b080      0x6bc
+                0x000000009d00b694      0x6bc
  .text._vfprintf_s
-                0x000000009d00b080      0x6bc c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
+                0x000000009d00b694      0x6bc c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
 
-.text.dp32mul   0x000000009d00b73c      0x4b8
- .text.dp32mul  0x000000009d00b73c      0x4b8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dp32div.o)
-                0x000000009d00b73c                dpdiv
-                0x000000009d00b73c                __divdf3
+.text           0x000000009d00bd50      0x5c0
+ .text          0x000000009d00bd50      0x5c0 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
+                0x000000009d00bd50                task_code
+                0x000000009d00be44                tman_test
 
-.text           0x000000009d00bbf4      0x8a4
- .text          0x000000009d00bbf4      0x454 build/USB-II_STARTER_KIT/production/_ext/332309696/port_asm.o
-                0x000000009d00bbf4                vPortTickInterruptHandler
-                0x000000009d00bda0                vPortStartFirstTask
-                0x000000009d00be68                vPortYieldISR
- .text          0x000000009d00c048      0x450 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
-                0x000000009d00c048                pxPortInitialiseStack
-                0x000000009d00c1c0                vApplicationSetupTickTimerInterrupt
-                0x000000009d00c260                vPortEndScheduler
-                0x000000009d00c2b0                xPortStartScheduler
-                0x000000009d00c354                vPortIncrementTick
-                0x000000009d00c404                uxPortSetInterruptMaskFromISR
-                0x000000009d00c45c                vPortClearInterruptMaskFromISR
+.text.dp32mul   0x000000009d00c310      0x4b8
+ .text.dp32mul  0x000000009d00c310      0x4b8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dp32div.o)
+                0x000000009d00c310                dpdiv
+                0x000000009d00c310                __divdf3
 
-.text           0x000000009d00c498      0x898
- .text          0x000000009d00c498      0x450 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
-                0x000000009d00c498                task_code
-                0x000000009d00c580                tman_test
- .text          0x000000009d00c8e8      0x448 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
-                0x000000009d00c8e8                __moddi3
+.text           0x000000009d00c7c8      0x8a4
+ .text          0x000000009d00c7c8      0x454 build/USB-II_STARTER_KIT/production/_ext/332309696/port_asm.o
+                0x000000009d00c7c8                vPortTickInterruptHandler
+                0x000000009d00c974                vPortStartFirstTask
+                0x000000009d00ca3c                vPortYieldISR
+ .text          0x000000009d00cc1c      0x450 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
+                0x000000009d00cc1c                pxPortInitialiseStack
+                0x000000009d00cd94                vApplicationSetupTickTimerInterrupt
+                0x000000009d00ce34                vPortEndScheduler
+                0x000000009d00ce84                xPortStartScheduler
+                0x000000009d00cf28                vPortIncrementTick
+                0x000000009d00cfd8                uxPortSetInterruptMaskFromISR
+                0x000000009d00d030                vPortClearInterruptMaskFromISR
 
-.text           0x000000009d00cd30      0x440
- .text          0x000000009d00cd30      0x440 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
-                0x000000009d00cd30                __divdi3
+.text           0x000000009d00d06c      0x888
+ .text          0x000000009d00d06c      0x448 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_moddi3.o)
+                0x000000009d00d06c                __moddi3
+ .text          0x000000009d00d4b4      0x440 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_divdi3.o)
+                0x000000009d00d4b4                __divdi3
 
 .text.dp32subadd
-                0x000000009d00d170      0x430
+                0x000000009d00d8f4      0x430
  .text.dp32subadd
-                0x000000009d00d170      0x430 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dp32subadd.o)
-                0x000000009d00d170                dpsub
-                0x000000009d00d170                __subdf3
-                0x000000009d00d178                __adddf3
-                0x000000009d00d178                dpadd
+                0x000000009d00d8f4      0x430 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dp32subadd.o)
+                0x000000009d00d8f4                dpsub
+                0x000000009d00d8f4                __subdf3
+                0x000000009d00d8fc                __adddf3
+                0x000000009d00d8fc                dpadd
 
-.text           0x000000009d00d5a0      0x7e4
- .text          0x000000009d00d5a0      0x3f8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
-                0x000000009d00d5a0                __umoddi3
- .text          0x000000009d00d998      0x3ec c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
-                0x000000009d00d998                __udivdi3
+.text           0x000000009d00dd24      0x7e4
+ .text          0x000000009d00dd24      0x3f8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_umoddi3.o)
+                0x000000009d00dd24                __umoddi3
+ .text          0x000000009d00e11c      0x3ec c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_udivdi3.o)
+                0x000000009d00e11c                __udivdi3
 
-.text           0x000000009d00dd84      0x6e0
- .text          0x000000009d00dd84      0x370 build/USB-II_STARTER_KIT/production/_ext/1472/ConfigPerformance.o
-                0x000000009d00dd84                vHardwareConfigurePerformance
-                0x000000009d00de1c                vHardwareUseMultiVectoredInterrupts
- .text          0x000000009d00e0f4      0x370 build/USB-II_STARTER_KIT/production/_ext/1852901230/uart.o
-                0x000000009d00e0f4                UartInit
-                0x000000009d00e2c4                UartClose
-                0x000000009d00e2e8                GetChar
-                0x000000009d00e3ac                PutChar
-                0x000000009d00e400                PrintStr
+.text           0x000000009d00e508      0x6e0
+ .text          0x000000009d00e508      0x370 build/USB-II_STARTER_KIT/production/_ext/1472/ConfigPerformance.o
+                0x000000009d00e508                vHardwareConfigurePerformance
+                0x000000009d00e5a0                vHardwareUseMultiVectoredInterrupts
+ .text          0x000000009d00e878      0x370 build/USB-II_STARTER_KIT/production/_ext/1852901230/uart.o
+                0x000000009d00e878                UartInit
+                0x000000009d00ea48                UartClose
+                0x000000009d00ea6c                GetChar
+                0x000000009d00eb30                PutChar
+                0x000000009d00eb84                PrintStr
 
-.text.dp32mul   0x000000009d00e464      0x32c
- .text.dp32mul  0x000000009d00e464      0x32c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dp32mul.o)
-                0x000000009d00e464                __muldf3
-                0x000000009d00e464                dpmul
+.text.dp32mul   0x000000009d00ebe8      0x32c
+ .text.dp32mul  0x000000009d00ebe8      0x32c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dp32mul.o)
+                0x000000009d00ebe8                __muldf3
+                0x000000009d00ebe8                dpmul
 
-.text           0x000000009d00e790      0x4d0
- .text          0x000000009d00e790      0x2bc build/USB-II_STARTER_KIT/production/_ext/449926602/list.o
-                0x000000009d00e790                vListInitialise
-                0x000000009d00e7fc                vListInitialiseItem
-                0x000000009d00e82c                vListInsertEnd
-                0x000000009d00e8bc                vListInsert
-                0x000000009d00e9ac                uxListRemove
- .text          0x000000009d00ea4c      0x214 build/USB-II_STARTER_KIT/production/_ext/1472/main.o
-                0x000000009d00ea4c                main
-                0x000000009d00eb00                vApplicationMallocFailedHook
-                0x000000009d00eb54                vApplicationIdleHook
-                0x000000009d00eb78                vApplicationStackOverflowHook
-                0x000000009d00ebd4                vApplicationTickHook
-                0x000000009d00ebf8                _general_exception_handler
-                0x000000009d00ec14                vAssertCalled
+.text           0x000000009d00ef14      0x4d0
+ .text          0x000000009d00ef14      0x2bc build/USB-II_STARTER_KIT/production/_ext/449926602/list.o
+                0x000000009d00ef14                vListInitialise
+                0x000000009d00ef80                vListInitialiseItem
+                0x000000009d00efb0                vListInsertEnd
+                0x000000009d00f040                vListInsert
+                0x000000009d00f130                uxListRemove
+ .text          0x000000009d00f1d0      0x214 build/USB-II_STARTER_KIT/production/_ext/1472/main.o
+                0x000000009d00f1d0                main
+                0x000000009d00f284                vApplicationMallocFailedHook
+                0x000000009d00f2d8                vApplicationIdleHook
+                0x000000009d00f2fc                vApplicationStackOverflowHook
+                0x000000009d00f358                vApplicationTickHook
+                0x000000009d00f37c                _general_exception_handler
+                0x000000009d00f398                vAssertCalled
 
-.text.scale     0x000000009d00ec60      0x1f8
- .text.scale    0x000000009d00ec60      0x1f8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+.text.scale     0x000000009d00f3e4      0x1f8
+ .text.scale    0x000000009d00f3e4      0x1f8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
 
-.dinit          0x000000009d00ee58      0x170
- .dinit         0x000000009d00ee58      0x170 data_init
+.text           0x000000009d00f5dc      0x168
+ .text          0x000000009d00f5dc      0x168 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(memcpy.o)
+                0x000000009d00f5dc                memcpy
 
-.text           0x000000009d00efc8      0x168
- .text          0x000000009d00efc8      0x168 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(memcpy.o)
-                0x000000009d00efc8                memcpy
+.rodata         0x000000009d00f748      0x160
+ .rodata        0x000000009d00f748      0x160 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ldpowers.o)
+                0x000000009d00f748                _npowers_
+                0x000000009d00f7f8                _powers_
 
-.rodata         0x000000009d00f130      0x160
- .rodata        0x000000009d00f130      0x160 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ldpowers.o)
-                0x000000009d00f130                _npowers_
-                0x000000009d00f1e0                _powers_
+.dinit          0x000000009d00f8a8      0x160
+ .dinit         0x000000009d00f8a8      0x160 data_init
 
-.text.fround    0x000000009d00f290      0x13c
- .text.fround   0x000000009d00f290      0x13c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+.text.fround    0x000000009d00fa08      0x13c
+ .text.fround   0x000000009d00fa08      0x13c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
 
-.text.dpcmp     0x000000009d00f3cc      0x12c
- .text.dpcmp    0x000000009d00f3cc      0x12c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dpcmp.o)
-                0x000000009d00f3cc                __ltdf2
-                0x000000009d00f3cc                __gedf2
-                0x000000009d00f3cc                dpcmp
-                0x000000009d00f3cc                __ledf2
-                0x000000009d00f3cc                __nedf2
-                0x000000009d00f3cc                __eqdf2
-                0x000000009d00f3cc                __gtdf2
+.text.dpcmp     0x000000009d00fb44      0x12c
+ .text.dpcmp    0x000000009d00fb44      0x12c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dpcmp.o)
+                0x000000009d00fb44                __ltdf2
+                0x000000009d00fb44                __gedf2
+                0x000000009d00fb44                dpcmp
+                0x000000009d00fb44                __ledf2
+                0x000000009d00fb44                __nedf2
+                0x000000009d00fb44                __eqdf2
+                0x000000009d00fb44                __gtdf2
 
-.text.fputc     0x000000009d00f4f8      0x128
- .text.fputc    0x000000009d00f4f8      0x128 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
-                0x000000009d00f4f8                fputc
+.text.fputc     0x000000009d00fc70      0x128
+ .text.fputc    0x000000009d00fc70      0x128 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_fputc_simple.o)
+                0x000000009d00fc70                fputc
 
 .text._mon_putc
-                0x000000009d00f620      0x128
+                0x000000009d00fd98      0x128
  .text._mon_putc
-                0x000000009d00f620      0x128 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
-                0x000000009d00f620                _mon_putc
+                0x000000009d00fd98      0x128 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(_mon_putc.o)
+                0x000000009d00fd98                _mon_putc
 
-.text           0x000000009d00f748      0x120
- .text          0x000000009d00f748      0x120 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(strcmp.o)
-                0x000000009d00f748                strcmp
+.text           0x000000009d00fec0      0x120
+ .text          0x000000009d00fec0      0x120 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(strcmp.o)
+                0x000000009d00fec0                strcmp
 
-.text._flsbuf   0x000000009d00f868      0x10c
- .text._flsbuf  0x000000009d00f868      0x10c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
-                0x000000009d00f868                _flsbuf
+.text._flsbuf   0x000000009d00ffe0      0x10c
+ .text._flsbuf  0x000000009d00ffe0      0x10c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(_flsbuf_simple.o)
+                0x000000009d00ffe0                _flsbuf
 
-.rodata         0x000000009d00f974      0x104
- .rodata        0x000000009d00f974      0x104 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ctype.o)
-                0x000000009d00f974                _ctype
+.rodata         0x000000009d0100ec      0x1f8
+ .rodata        0x000000009d0100ec      0x104 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(ctype.o)
+                0x000000009d0100ec                _ctype
+ .rodata        0x000000009d0101f0       0xf4 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
 
 .text.__fixdfdi
-                0x000000009d00fa78       0xe0
+                0x000000009d0102e4       0xe0
  .text.__fixdfdi
-                0x000000009d00fa78       0xe0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
-                0x000000009d00fa78                __fixdfdi
+                0x000000009d0102e4       0xe0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixdfdi.o)
+                0x000000009d0102e4                __fixdfdi
 
 .text.general_exception
-                0x000000009d00fb58       0xdc
+                0x000000009d0103c4       0xdc
  .text.general_exception
-                0x000000009d00fb58       0xdc c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o)
-                0x000000009d00fb58                _general_exception_context
+                0x000000009d0103c4       0xdc c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o)
+                0x000000009d0103c4                _general_exception_context
 
-.rodata         0x000000009d00fc34       0xd4
- .rodata        0x000000009d00fc34       0xd4 build/USB-II_STARTER_KIT/production/_ext/1472/test.o
+.text           0x000000009d0104a0       0xa8
+ .text          0x000000009d0104a0       0xa8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(memset.o)
+                0x000000009d0104a0                memset
 
-.text           0x000000009d00fd08       0xa8
- .text          0x000000009d00fd08       0xa8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(memset.o)
-                0x000000009d00fd08                memset
+.text.libm      0x000000009d010548       0xa8
+ .text.libm     0x000000009d010548       0xa8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dpfrexp.o)
+                0x000000009d010548                dpfrexp
+                0x000000009d010548                frexpl
+                0x000000009d010548                frexp
 
-.text.libm      0x000000009d00fdb0       0xa8
- .text.libm     0x000000009d00fdb0       0xa8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dpfrexp.o)
-                0x000000009d00fdb0                dpfrexp
-                0x000000009d00fdb0                frexpl
-                0x000000009d00fdb0                frexp
+.rodata         0x000000009d0105f0      0x140
+ .rodata        0x000000009d0105f0       0xa0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
+ .rodata        0x000000009d010690       0xa0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
 
-.rodata         0x000000009d00fe58      0x140
- .rodata        0x000000009d00fe58       0xa0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
- .rodata        0x000000009d00fef8       0xa0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
+.rodata         0x000000009d010730       0xa0
+ .rodata        0x000000009d010730       0xa0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
 
-.rodata         0x000000009d00ff98       0xa0
- .rodata        0x000000009d00ff98       0xa0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
-
-.text           0x000000009d010038       0x98
- .text          0x000000009d010038       0x98 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(memcmp.o)
-                0x000000009d010038                memcmp
+.text           0x000000009d0107d0       0x98
+ .text          0x000000009d0107d0       0x98 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(memcmp.o)
+                0x000000009d0107d0                memcmp
 
 .text.__orderdf2
-                0x000000009d0100d0       0x90
+                0x000000009d010868       0x90
  .text.__orderdf2
-                0x000000009d0100d0       0x90 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
-                0x000000009d0100d0                __orderdf2
+                0x000000009d010868       0x90 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_orderdf2.o)
+                0x000000009d010868                __orderdf2
 
-.text.dptoul    0x000000009d010160       0x8c
- .text.dptoul   0x000000009d010160       0x8c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dptoul.o)
-                0x000000009d010160                dptoul
-                0x000000009d010160                __fixunsdfsi
+.text.dptoul    0x000000009d0108f8       0x8c
+ .text.dptoul   0x000000009d0108f8       0x8c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(dptoul.o)
+                0x000000009d0108f8                dptoul
+                0x000000009d0108f8                __fixunsdfsi
 
-.text.write     0x000000009d0101ec       0x88
- .text.write    0x000000009d0101ec       0x88 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
-                0x000000009d0101ec                write
+.text.write     0x000000009d010984       0x88
+ .text.write    0x000000009d010984       0x88 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(write.o)
+                0x000000009d010984                write
 
-.text           0x000000009d010274       0x84
- .text          0x000000009d010274       0x84 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init.o)
-                0x000000009d010274                __pic32_data_init
+.text           0x000000009d010a0c       0x84
+ .text          0x000000009d010a0c       0x84 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init.o)
+                0x000000009d010a0c                __pic32_data_init
 
 .text.__fixunsdfdi
-                0x000000009d0102f8       0x80
+                0x000000009d010a90       0x80
  .text.__fixunsdfdi
-                0x000000009d0102f8       0x80 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
-                0x000000009d0102f8                __fixunsdfdi
+                0x000000009d010a90       0x80 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libe.a(_fixunsdfdi.o)
+                0x000000009d010a90                __fixunsdfdi
 
-.text.litodp    0x000000009d010378       0x78
- .text.litodp   0x000000009d010378       0x78 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(litodp.o)
-                0x000000009d010378                __floatsidf
-                0x000000009d010378                litodp
+.text.litodp    0x000000009d010b10       0x78
+ .text.litodp   0x000000009d010b10       0x78 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(litodp.o)
+                0x000000009d010b10                __floatsidf
+                0x000000009d010b10                litodp
 
-.text           0x000000009d0103f0       0x74
- .text          0x000000009d0103f0       0x74 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
-                0x000000009d0103f0                __floatundidf
+.text           0x000000009d010b88       0x74
+ .text          0x000000009d010b88       0x74 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
+                0x000000009d010b88                __floatundidf
 
 .text._sprintf_cdnopsuxX
-                0x000000009d010464       0x64
+                0x000000009d010bfc       0x64
  .text._sprintf_cdnopsuxX
-                0x000000009d010464       0x64 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
-                0x000000009d010464                _sprintf_cdnopsuxX
+                0x000000009d010bfc       0x64 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(sprintf_cdnopsuxX.eo)
+                0x000000009d010bfc                _sprintf_cdnopsuxX
 
 .text.main_entry
-                0x000000009d0104c8       0x54
+                0x000000009d010c60       0x54
  .text.main_entry
-                0x000000009d0104c8       0x54 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
-                0x000000009d0104fc                __crt0_exit
+                0x000000009d010c60       0x54 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
+                0x000000009d010c94                __crt0_exit
 
-.rodata         0x000000009d01051c       0x48
- .rodata        0x000000009d01051c       0x48 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
-                0x000000009d010530                xISRStackTop
+.rodata         0x000000009d010cb4       0x48
+ .rodata        0x000000009d010cb4       0x48 build/USB-II_STARTER_KIT/production/_ext/332309696/port.o
+                0x000000009d010cc8                xISRStackTop
 
 .text._bootstrap_exception_handler
-                0x000000009d010564       0x48
+                0x000000009d010cfc       0x48
  .text._bootstrap_exception_handler
-                0x000000009d010564       0x48 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                0x000000009d010564                _bootstrap_exception_handler
+                0x000000009d010cfc       0x48 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+                0x000000009d010cfc                _bootstrap_exception_handler
 
 .vector_default
-                0x000000009d0105ac       0x48
+                0x000000009d010d44       0x48
  .vector_default
-                0x000000009d0105ac       0x48 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
-                0x000000009d0105ac                _DefaultInterrupt
+                0x000000009d010d44       0x48 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+                0x000000009d010d44                _DefaultInterrupt
 
-.text           0x000000009d0105f4       0x88
- .text          0x000000009d0105f4       0x44 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
-                0x000000009d0105f4                __pic32_software_reset
- .text          0x000000009d010638       0x44 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
-                0x000000009d010638                __floatunsidf
+.text           0x000000009d010d8c       0x88
+ .text          0x000000009d010d8c       0x44 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
+                0x000000009d010d8c                __pic32_software_reset
+ .text          0x000000009d010dd0       0x44 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
+                0x000000009d010dd0                __floatunsidf
 
-.text           0x000000009d01067c       0x3c
- .text          0x000000009d01067c       0x3c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
-                0x000000009d01067c                __lshrdi3
+.text           0x000000009d010e14       0x3c
+ .text          0x000000009d010e14       0x3c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_lshrdi3.o)
+                0x000000009d010e14                __lshrdi3
 
 .text._printf_s
-                0x000000009d0106b8       0x38
+                0x000000009d010e50       0x38
  .text._printf_s
-                0x000000009d0106b8       0x38 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
-                0x000000009d0106b8                _printf_0
-                0x000000009d0106b8                _printf_s
+                0x000000009d010e50       0x38 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf_s.eo)
+                0x000000009d010e50                _printf_0
+                0x000000009d010e50                _printf_s
 
-.text.printf    0x000000009d0106f0       0x38
- .text.printf   0x000000009d0106f0       0x38 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
-                0x000000009d0106f0                printf
+.text.printf    0x000000009d010e88       0x38
+ .text.printf   0x000000009d010e88       0x38 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(printf.o)
+                0x000000009d010e88                printf
 
-.rodata         0x000000009d010728       0x30
- .rodata        0x000000009d010728       0x30 build/USB-II_STARTER_KIT/production/_ext/1884096877/heap_4.o
+.rodata         0x000000009d010ec0       0x30
+ .rodata        0x000000009d010ec0       0x30 build/USB-II_STARTER_KIT/production/_ext/1884096877/heap_4.o
 
-.rodata.str1.4  0x000000009d010758       0x60
+.rodata.str1.4  0x000000009d010ef0       0x60
  .rodata.str1.4
-                0x000000009d010758       0x30 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
+                0x000000009d010ef0       0x30 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_cdnopsuxX.eo)
  .rodata.str1.4
-                0x000000009d010788       0x30 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+                0x000000009d010f20       0x30 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
 
-.rodata.cst8    0x000000009d0107b8       0x28
- .rodata.cst8   0x000000009d0107b8       0x28 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
+.rodata.cst8    0x000000009d010f50       0x28
+ .rodata.cst8   0x000000009d010f50       0x28 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt.o)
 
-.rodata         0x000000009d0107e0       0x44
- .rodata        0x000000009d0107e0       0x24 build/USB-II_STARTER_KIT/production/_ext/449926602/timers.o
- .rodata        0x000000009d010804       0x20 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
+.rodata         0x000000009d010f78       0x44
+ .rodata        0x000000009d010f78       0x24 build/USB-II_STARTER_KIT/production/_ext/449926602/timers.o
+ .rodata        0x000000009d010f9c       0x20 build/USB-II_STARTER_KIT/production/_ext/449926602/tasks.o
 
-.rodata.str1.4  0x000000009d010824       0x1c
+.rodata.str1.4  0x000000009d010fbc       0x1c
  .rodata.str1.4
-                0x000000009d010824       0x1c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
+                0x000000009d010fbc       0x1c c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc.a(doprnt_s.eo)
 
-.MIPS.abiflags  0x000000009d010840       0x18
+.MIPS.abiflags  0x000000009d010fd8       0x18
  .MIPS.abiflags
-                0x000000009d010840       0x18 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\debug-exception-return.o
+                0x000000009d010fd8       0x18 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\debug-exception-return.o
 
-.rodata         0x000000009d010858       0x18
- .rodata        0x000000009d010858       0x18 build/USB-II_STARTER_KIT/production/_ext/449926602/queue.o
+.rodata         0x000000009d010ff0       0x18
+ .rodata        0x000000009d010ff0       0x18 build/USB-II_STARTER_KIT/production/_ext/449926602/queue.o
 
-.text           0x000000009d010870       0x18
- .text          0x000000009d010870       0x18 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
-                0x000000009d010870                _nmi_handler
+.text           0x000000009d011008       0x18
+ .text          0x000000009d011008       0x18 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
+                0x000000009d011008                _nmi_handler
 
 .text._on_reset
-                0x000000009d010888        0x8
+                0x000000009d011020        0x8
  .text._on_reset
-                0x000000009d010888        0x8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
-                0x000000009d010888                _on_reset
+                0x000000009d011020        0x8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+                0x000000009d011020                _on_reset
 
 .text._on_bootstrap
-                0x000000009d010890        0x8
+                0x000000009d011028        0x8
  .text._on_bootstrap
-                0x000000009d010890        0x8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
-                0x000000009d010890                _on_bootstrap
+                0x000000009d011028        0x8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+                0x000000009d011028                _on_bootstrap
 
-.rodata.cst8    0x000000009d010898       0x10
- .rodata.cst8   0x000000009d010898        0x8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
- .rodata.cst8   0x000000009d0108a0        0x8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
+.rodata.cst8    0x000000009d011030       0x10
+ .rodata.cst8   0x000000009d011030        0x8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(_floatundidf.o)
+ .rodata.cst8   0x000000009d011038        0x8 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a(floatunsidf.o)
 
 .text%z211      0x0000000000000000        0x0
  .text          0x0000000000000000        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libm.a(litodp.o)
@@ -3733,13 +3731,13 @@ LOAD data_init
  .text          0x0000000000000000        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
 
 .text%z290      0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccg0mXeY.o
+ .text          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\cc8CpAmt.o
 
 .text%z291      0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\cciyHlkC.o
+ .text          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccAb1i1A.o
 
 .text%z292      0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccur8eay.o
+ .text          0x0000000000000000        0x0 C:\Users\dmtar\AppData\Local\Temp\ccSsU3YS.o
 
 .text%z293      0x0000000000000000        0x0
  .text          0x0000000000000000        0x0 c:/tools/mplab/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\debug-exception-return.o
