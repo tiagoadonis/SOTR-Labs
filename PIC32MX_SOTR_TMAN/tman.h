@@ -25,13 +25,16 @@
 // Define framework related codes
 #define TMAN_MAX_TASKS 16
 #define TMAN_TICK_PERIOD 1000
+#define TMAN_TASK_ID_SIZE 2
+#define TMAN_MAX_CONSTR_TAKE 2
+#define TMAN_MAX_CONSTR_GIVE 2
 
 typedef struct TMAN_TASK_HANDLER {
-    char task_id[2];
+    char task_id[TMAN_TASK_ID_SIZE];
     int activations;
-    char constr_take[2][2];
-    char constr_give[2][2];
-    int constr_give_not_index[2];
+    char constr_take[TMAN_MAX_CONSTR_TAKE][TMAN_TASK_ID_SIZE];
+    char constr_give[TMAN_MAX_CONSTR_GIVE][TMAN_TASK_ID_SIZE];
+    int constr_give_not_index[TMAN_MAX_CONSTR_GIVE];
     int num_constrs_take;
     int num_constrs_give;
     TaskHandle_t task_handle;
@@ -55,11 +58,10 @@ typedef struct TMAN_CONTROL {
 // Define prototypes (public interface)
 int TMAN_INIT();
 int TMAN_CLOSE();
-int TMAN_TASK_ADD(char* task_id, TaskFunction_t code, void* args);
+int TMAN_TASK_ADD(char* task_id, TaskFunction_t code, void* args, int priority);
 int TMAN_TASK_REGISTER_ATTRIBUTES(char* task_id, int attr, void* value);
 int TMAN_TASK_WAIT_PERIOD(char* task_id);
 int TMAN_TASK_STATS(char* task_id, TMAN_TASK_STATUS* handler);
-int TMAN_TASK_END(char* task_id);
 int TMAN_PRINT(char* msg);
 
 #endif

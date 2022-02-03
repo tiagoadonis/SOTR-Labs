@@ -45,6 +45,21 @@ int get_handler_index(char* id){
     return rv;
 }
 
+int notify_constr(char* task_id){
+    int constr_index;
+    int index = get_handler_index(task_id);
+    
+    if (index == TMAN_FAIL)
+        return index;
+    
+    for(int i = 0; i < tman_handlers[index].num_constrs_give; i++){
+        constr_index = get_handler_index(tman_handlers[index].constr_give[i]);
+        xTaskNotifyGiveIndexed(tman_handlers[constr_index].task_handle, tman_handlers[index].constr_give_not_index[i]);
+    }
+    
+    return TMAN_SUCCESS;
+}
+
 /*
  * Public Definitions
  */
@@ -65,12 +80,12 @@ int TMAN_CLOSE(){
     return TMAN_FAIL;
 }
 
-int TMAN_TASK_ADD(char* task_id, TaskFunction_t code, void* args){
+int TMAN_TASK_ADD(char* task_id, TaskFunction_t code, void* args, int priority){
     int index = tman_control.new_task_index;
     
     BaseType_t xReturned;
     
-    xReturned = xTaskCreate(code, (const signed char* const) task_id, configMINIMAL_STACK_SIZE, (void*) args, tskIDLE_PRIORITY, &tman_handlers[index].task_handle);    
+    xReturned = xTaskCreate(code, (const signed char* const) task_id, configMINIMAL_STACK_SIZE, (void*) args, tskIDLE_PRIORITY + priority, &tman_handlers[index].task_handle);    
 
     if( xReturned != pdPASS )
         return TMAN_FAIL;
@@ -129,6 +144,9 @@ int TMAN_TASK_WAIT_PERIOD(char* task_id){
     if (index == TMAN_FAIL)
         return index;
     
+    if(tman_handlers[index].activations)
+        notify_constr(task_id);
+    
     ulTaskNotifyTakeIndexed(0, pdTRUE, portMAX_DELAY);
     if(tman_handlers[index].num_constrs_take){
         for(int i = 0; i < tman_handlers[index].num_constrs_take; i++){
@@ -150,21 +168,6 @@ int TMAN_TASK_STATS(char* task_id, TMAN_TASK_STATUS* status_handler){
     memcpy(&status_handler->task_id, &tman_handlers[index].task_id, 2);
     status_handler->activation_time = tman_handlers[index].last_activation_time / TMAN_TICK_PERIOD;
             
-    return TMAN_SUCCESS;
-}
-
-int TMAN_TASK_END(char* task_id){
-    int constr_index;
-    int index = get_handler_index(task_id);
-    
-    if (index == TMAN_FAIL)
-        return index;
-    
-    for(int i = 0; i < tman_handlers[index].num_constrs_give; i++){
-        constr_index = get_handler_index(tman_handlers[index].constr_give[i]);
-        xTaskNotifyGiveIndexed(tman_handlers[constr_index].task_handle, tman_handlers[index].constr_give_not_index[i]);
-    }
-    
     return TMAN_SUCCESS;
 }
 
