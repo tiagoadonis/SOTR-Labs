@@ -1,5 +1,3 @@
-# SOTR-Labs
-
 ## [tutorial01](https://github.com/tiagoadonis/SOTR-Labs/tree/master/tutorial01)
 
 - The first tutorial is about Real Time Services on Linux.
